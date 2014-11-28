@@ -1,0 +1,54 @@
+###
+# Deleted Templates in MediaWiki 
+# format : java regex
+###
+Article_détaillé
+Voir_homonymes
+Homonymie
+Article_connexe
+Références
+Lien_AdQ
+Lien_BA
+à_recycler
+à_sourcer
+sources_à_lier
+#Entre les références {{,}}
+, 
+Autres_projets
+Portail
+Palette
+DEFAULTSORT.*
+Catégorie_principale
+message_galerie
+gallery
+ref
+lien_web
+Article
+Ouvrage
+Annexe
+commentaire_biblio
+
+refins
+
+Incise
+
+Confusion
+fr
+en
+
+# infobox
+2autres
+Taxobox_début
+Taxobox_fin
+Taxobox
+Taxobox_phylogénie_arbre
+taxo.*
+
+Lien_web
+lien_brisé
+Crédit_d'auteurs
+
+Redirect
+Lien_marques_secteur
+
+

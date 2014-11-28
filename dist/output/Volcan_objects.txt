@@ -1,0 +1,119 @@
+SE :	#Primer# = [Les volcans sont souvent des édifices complexes qui ont été construits par une succession d'éruptions et qui, dans la même période, ont été partiellement démolis par des phénomènes d'explosion, d'érosion ou d'effondrement. Il est ainsi fréquent d'observer diverses structures superposées ou emboitées. Au cours de l'histoire d'un volcan, les types d'éruptions peuvent aussi varier. Néanmoins, il est d'usage, dans le cadre de la vulgarisation scientifique, de considérer qu'il existe au monde deux types généraux :	]
+	Item 1 = [les volcans effusifs, ou « volcans rouges », aux éruptions relativement calmes qui émettent des laves fluides sous la forme de coulées. Ce sont les volcans de « point chaud », et les volcans d'« accrétion » principalement représentés par les volcans sous-marins des dorsales océaniques ;
+	]
+	Item 2 = [les volcans explosifs, ou « volcans gris », aux éruptions explosives qui émettent des laves pâteuses et des cendres sous la forme de nuées ardentes ou coulées pyroclastiques et de panaches volcaniques. Ils sont principalement associés au phénomène de subduction comme les volcans de la « ceinture de feu du Pacifique ».
+	]
+SE :	#Primer# = [Un volcan est formé de différentes structures que l'on retrouve en général chez chacun d'eux :	]
+	Item 1 = [une chambre magmatique alimentée par du magma venant du manteau et jouant le rôle de réservoir et de lieu de différenciation du magma. Lorsque celle-ci se vide à la suite d'une éruption, le volcan peut s'affaisser et donner naissance à une caldeira. Les chambres magmatiques se trouvent entre dix et cinquante kilomètres de profondeur dans la lithosphère ;
+	]
+	Item 2 = [une cheminée volcanique qui est le lieu de transit privilégié du magma de la chambre magmatique vers la surface ;
+	]
+	Item 3 = [un cratère ou une caldeira sommitale où débouche la cheminée volcanique ;
+	]
+	Item 4 = [une ou plusieurs cheminées volcaniques secondaires partant de la chambre magmatique ou de la cheminée volcanique principale et débouchant en général sur les flancs du volcan, parfois à sa base ; elles peuvent donner naissance à de petits cônes secondaires ;
+	]
+	Item 5 = [des fissures latérales qui sont des fractures longitudinales dans le flanc du volcan provoquées par son gonflement ou son dégonflement  ; elles peuvent permettre l'émission de lave sous la forme d'une éruption fissurale.
+	]
+SE :	#Primer# = [La classification la plus courante dans les ouvrages de vulgarisation distingue trois types de volcans suivant le type de lave qu'ils émettent et le type d'éruption :	]
+	Item 1 = [en volcan bouclier lorsque son diamètre est très supérieur à sa hauteur en raison de la fluidité des laves qui peuvent parcourir des kilomètres avant de s'arrêter ; le Mauna Kea, l'Erta Ale ou le Piton de la Fournaise en sont des exemples ;
+	]
+	Item 2 = [en stratovolcan lorsque son diamètre est plus équilibré par rapport à sa hauteur en raison de la plus grande viscosité des laves ; il s'agit des volcans aux éruptions explosives comme le Vésuve, le mont Fuji, le Merapi ou le mont Saint Helens ;
+	]
+	Item 3 = [en volcan fissural formé par une ouverture linéaire dans la croûte terrestre ou océanique par laquelle s'échappe de la lave fluide ; les volcans des dorsales se présentent sous forme de fissure comme les Lakagígar ou le Krafla.
+	]
+SE :	#Primer# = [Comme toute classification de phénomènes naturels, beaucoup de cas sont intermédiaires entre les types purs : l'Etna ressemble à un stratovolcan posé sur un volcan bouclier, Hekla est à la fois un stratovolcan et un volcan fissural, les éruption des volcans boucliers d'Hawaï démarrent souvent par l'ouverture d'une fissure. Dans Volcanoes of the World, Tom Simkin and Lee Siebert listent 26  types morphologiques. Sans aller aussi loin, on peut ajouter aux précédents deux types très différents :	]
+	Item 1 = [les complexes de caldeira rhyolitiques, comme la caldeira de Yellowstone, qui n'ont pas d'édifice volcanique,
+	]
+	Item 2 = [les champs monogéniques, qui présentent de multiples édifices comme des cônes de scories édifiés chacun en une seule fois,
+	]
+SE :	#Primer# = [et diviser les volcans fissuraux en :	]
+	Item 1 = [trapps, et
+	]
+	Item 2 = [dorsales océaniques.
+	]
+SE :	#Primer# = [Les gaz volcaniques sont principalement composés de :	]
+	Item 1 = [vapeur d'eau à teneur de 50 à 90 % ;
+	]
+	Item 2 = [dioxyde de carbone à teneur de 5 à 25 % ;
+	]
+	Item 3 = [dioxyde de soufre à teneur de 3 à 25 %.
+	]
+SE :	#Primer# = [Depuis 1600, les volcans ont fait 300000  morts dans le monde, ce qui représente en 2011 :	]
+	Item 1 = [35,5 % des victimes dues aux nuées ardentes ;
+	]
+	Item 2 = [23 % aux famines et épidémies (chiffre essentiellement dû aux conséquences de l'éruption du Tambora en 1815 qui a fait plus de 60000  victimes) ;
+	]
+	Item 3 = [22,5 % au lahars et glissements de terrains ;
+	]
+	Item 4 = [14,9 % aux tsunamis ;
+	]
+	Item 5 = [3 % aux chutes de téphras ;
+	]
+	Item 6 = [1,3 % aux gaz ;
+	]
+	Item 7 = [0,3 % aux coulées de lave.
+	]
+SE :	#Primer# = [Par certains aspects, l'homme peut tirer profit de la présence des volcans avec :	]
+	Item 1 = [l'exploitation de l'énergie géothermique pour production d'électricité, le chauffage des bâtiments ou des serres pour les cultures ;
+	]
+	Item 2 = [la fourniture de matériaux de construction, ou à usage industriel tels que :
+le basalte qui sert de pierres de construction, de ballast ou de gravas concassé ;
+la ponce et la pouzzolane qui servent, entre autres, d'isolant dans les bétons ;
+l'extraction des minerais de soufre, de cuivre, de fer, de platine, de diamants, etc.
+	]
+	Item 3 = [la fertilisation des sols tels les versants de l'Etna qui constituent une région à très forte densité agricole en raison de la fertilité des sols volcaniques et où d'immenses vergers d'agrumes sont implantés. Ces sols volcaniques fertiles font vivre 350 millions de personnes dans le monde.
+	]
+SE :	#Primer# = [la fourniture de matériaux de construction, ou à usage industriel tels que :	]
+	Item 1 = [le basalte qui sert de pierres de construction, de ballast ou de gravas concassé ;
+	]
+	Item 2 = [la ponce et la pouzzolane qui servent, entre autres, d'isolant dans les bétons ;
+	]
+	Item 3 = [l'extraction des minerais de soufre, de cuivre, de fer, de platine, de diamants, etc.
+	]
+SE :	#Primer# = [Records	]
+	Item 1 = [Plus haut volcan :
+altitude cumulée : Mauna Kea, à Hawaï, avec 10230 mètres  de hauteur pour une altitude de 4207.5 mètres
+altitude absolue : Nevados Ojos del Salado, au Chili, avec 6887 mètres  d'altitude.
+	]
+	Item 2 = [Plus grand volcan d'Europe : le Cantal avec 2700 km  et 70 km  de diamètre.
+	]
+	Item 3 = [Plus grande éruption (en volume de matériaux éjectés) : Toba il y a 73000  ans avec 2800 km
+	]
+	Item 4 = [Plus petite éruption (en volume de matériaux éjectés) : forage géothermique à Hverarönd en Islande en 1977 avec 1.2 m  de basalte
+	]
+	Item 5 = [Volcan le plus actif : le Kīlauea et le Piton de la Fournaise se disputent le record avec une éruption tous les un an à un an et demi
+	]
+	Item 6 = [Plus jeune volcan : Ardoukoba avec une première éruption en novembre 1978  tandis que le Paricutín a connu sa première éruption en 1943
+	]
+	Item 7 = [Plus grande caldeira ou plus grand cratère volcanique terrestre : Toba formé il y a 73000  ans avec cent kilomètres de longueur sur trente kilomètres de largeur
+	]
+	Item 8 = [Plus grand nombre de victimes : Tambora sur l'île de Sumbawa en Indonésie en 1816 avec 88000  morts liés directement à l'éruption et 200000  morts supplémentaires par famine
+	]
+	Item 9 = [Éruption volcanique la plus bruyante : Krakatoa en Indonésie le 27 août 1883  où l'explosion fut entendue jusqu'à l'île Rodrigues à 500 kilomètres à l'est de l'île Maurice, soit à 4811  kilomètres de distance de l'éruption
+	]
+	Item 10 = [Plus grand panache volcanique : Taupo en Nouvelle-Zélande avec une hauteur estimée à cinquante kilomètres
+	]
+	Item 11 = [Plus longue coulée de lave : à Undara en Australie avec 160 kilomètres de longueur
+	]
+SE :	#Primer# = [Plus haut volcan :	]
+	Item 1 = [altitude cumulée : Mauna Kea, à Hawaï, avec 10230 mètres  de hauteur pour une altitude de 4207.5 mètres
+	]
+	Item 2 = [altitude absolue : Nevados Ojos del Salado, au Chili, avec 6887 mètres  d'altitude.
+	]
+SE :	#Primer# = [Bibliographie	]
+	Item 1 = [Jacques-Marie Bardintzeff, Les Volcans, Minerva, 2004 978-2-8307-0755-7
+	]
+	Item 2 = [Michel et Anne-Marie Detay, Volcans du feu et de l'eau, Belin, 2013 978-2-7011-7561-4
+	]
+	Item 3 = [Bernhard Edmaier, Volcans, Fernand Nathan, 2004 978-2-09-261099-2
+	]
+	Item 4 = [Jacques Kornprobst, Christine Laverne, Les Volcans, comment ça marche ?, Éditions du BRGM, 2002 978-2-84703-017-4
+	]
+	Item 5 = [Maurice Krafft, Les feux de la terre : Histoires de volcans, Découvertes Gallimard, 2003 978-2-07-042900-4
+	]
+	Item 6 = [Haroun Tazieff, Volcans, Larousse-Bordas, 1996, deuxième édition, 1999 978-2-04-027174-9
+	]
+	Item 7 = [Patrick de Wever, Le volcanisme : Cause de mort et source de vie, Vuibert, 2003 978-2-7117-5293-5
+	]
+	Item 8 = [Science et Vie Junior, « Des volcans et des hommes », dossier hors série, Excelsior Publications S.A., 1994
+	]

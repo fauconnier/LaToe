@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<project name="LaToe" default="build">
+		<property name="build.dir" value="bin" />
+		<property name="src.dir" value="src" />
+		<property name="models.dir" value="models" />
+		<property name="lib.dir" location="lib" />
+		<property name="dist.dir" value="dist" />
+		<property name="main.class" value="main.Main_JAR" />
+		<property name="develop" value="Jean-Philippe Fauconnier" />
+		<property name="junit_path" value="${lib.dir}/junit-4.11.jar" />
+		<property name="application.title" value="LaToe" />
+		<property name="application.version" value="0.0.1" />
+	
+		<!-- Date -->
+		<tstamp>
+			<format property="TODAY_GB" pattern="d-MM-yyyy" locale="en,GB" />
+		</tstamp>
+		<!-- Classpath -->
+		<path id="build.classpath">
+			<fileset dir="${lib.dir}">
+				<include name="**/*.jar" />
+				<include name="**/*.txt" />
+			</fileset>
+		</path>
+		<pathconvert property="lib.project.manifest.classpath" pathsep=" ">
+			<path refid="build.classpath" />
+			<flattenmapper />
+		</pathconvert>
+	
+		<!-- task:clean -->
+		<target name="clean" description="Clean workspace">
+			<delete dir="${build.dir}" />
+			<delete dir="${dist.dir}" />
+		</target>
+				
+		<!-- task:init -->
+		<target name="init" description="Create bin directory">
+			<mkdir dir="${build.dir}" />
+		</target>
+	
+		<!-- task:build -->
+		<target name="build" depends="clean, init" description="Build project">
+			<javac srcdir="${src.dir}" destdir="${build.dir}" classpathref="build.classpath" encoding="UTF-8" includeantruntime="false" />
+			<copy file="${src.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/MetaData.hbm.xml" tofile="${build.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/MetaData.hbm.xml" />
+			<copy file="${src.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/Category.hbm.xml" tofile="${build.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/Category.hbm.xml" />
+			<copy file="${src.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/PageMapLine.hbm.xml" tofile="${build.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/PageMapLine.hbm.xml" />
+			<copy file="${src.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/Page.hbm.xml" tofile="${build.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/Page.hbm.xml" />
+			<copy file="${src.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/RelatednessCacheLine.hbm.xml" tofile="${build.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/RelatednessCacheLine.hbm.xml" />
+		</target>
+		
+		<!-- task:dist -->
+		<target name="dist" depends="build" description="Generate .jar for the project">
+			<!-- create dist directory -->
+			<mkdir dir="${dist.dir}" />
+			<!-- copy resources -->
+			<copy todir="${dist.dir}/resources/">
+				<fileset dir="resources" />
+			</copy>
+			<copy todir="${dist.dir}/samples/">
+				<fileset dir="samples" />
+			</copy>
+			<copy todir="${dist.dir}/models/">
+				<fileset dir="models" />
+			</copy>
+			<copy todir="${dist.dir}/configuration/">
+				<fileset dir="configuration" />
+			</copy>
+			<copy todir="${dist.dir}/output/">
+					<fileset dir="output" />
+				</copy>
+				
+			<!-- packaging -->
+			<copy file="README.md" todir="${dist.dir}"/>
+			<copy file="LICENSE" todir="${dist.dir}"/>
+			<copy file="AUTHOR" todir="${dist.dir}"/>
+			<echo file="${dist.dir}/VERSION" append="true" message="Name:${application.title}${line.separator}Version:${application.version}${line.separator}Build:${TODAY_GB}"/>
+			<!-- <echo file="${dist.dir}/${application.title}_${application.version}.bat" append="true" message="java -jar ${application.title}_${application.version}.jar" /> -->
+			
+			<!-- create jar -->
+			<jar destfile="${dist.dir}/${application.title}_${application.version}.jar" basedir="${build.dir}">
+				<manifest>
+					<attribute name="Main-Class" value="${main.class}" />
+					<attribute name="Class-Path" value="${lib.project.manifest.classpath}" />
+					<attribute name="Created-By" value="${develop}" />
+					<attribute name="Implementation-Title" value="${application.title}" />
+					<attribute name="Implementation-Version" value="${application.version}" />
+				</manifest>
+				<fileset dir=".">
+					<include name="images/**" />
+					<include name="log4j.properties" />
+				</fileset>
+				<zipgroupfileset dir="${lib.dir}" />
+			</jar>
+		</target>
+		
+		<target name="test" depends="dist" description="Tests dist">
+			<junit printsummary="yes" haltonerror="yes" haltonfailure="yes" fork="yes">
+				<test name="melodi.srcTest.TestIO" />
+				<classpath>
+					<pathelement location="${dist.dir}/${application.title}_${application.version}.jar" />
+				</classpath>
+			</junit>
+		</target>
+	</project>
+	
