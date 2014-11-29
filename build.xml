@@ -46,6 +46,8 @@
 			<copy file="${src.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/PageMapLine.hbm.xml" tofile="${build.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/PageMapLine.hbm.xml" />
 			<copy file="${src.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/Page.hbm.xml" tofile="${build.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/Page.hbm.xml" />
 			<copy file="${src.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/RelatednessCacheLine.hbm.xml" tofile="${build.dir}/de/tudarmstadt/ukp/wikipedia/api/hibernate/RelatednessCacheLine.hbm.xml" />
+			<copy file="${src.dir}/context/applicationContextTemplate.xml" toFile="${build.dir}/context/applicationContextTemplate.xml" />
+			<copy file="${src.dir}/context/applicationContext.xml" toFile="${build.dir}/context/applicationContext.xml" />
 		</target>
 		
 		<!-- task:dist -->

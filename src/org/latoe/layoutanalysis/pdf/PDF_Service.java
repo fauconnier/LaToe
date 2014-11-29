@@ -21,6 +21,7 @@ import org.melodi.reader.service.Reader_Service;
 import org.melodi.tools.tree.ShiftReduce_Service;
 
 import edu.isi.bmkeg.lapdf.bin.Blockify;
+import edu.isi.bmkeg.lapdf.bin.BlockifyClassify;
 import edu.isi.bmkeg.lapdf.bin.ImagifyBlocks;
 
 public class PDF_Service {
@@ -32,62 +33,80 @@ public class PDF_Service {
 
 	}
 
-	public Document_Lara getDocument(String path, String path_model)
-			throws Exception {
+	public Document_Lara getDocument(String path, String path_model, String path_rules,
+			String onlyRules) throws Exception {
 
 		// 3 steps :
-		/*
-		 * 1. LaPDF Layout
-		 */
+
+		Document_Lara currDocument = new Document_Lara();
+
+		if (onlyRules.equals("TRUE")) {
+			
+			String[] args2 = new String[2];
+			args2[0] = path;
+			args2[1] = path_rules;
+//			blockifyClassify.main(args2);
+			
+			BlockifyClassify.main(args2);
+			
+
+		} else {
+			/*
+			 * 1. LaPDF Layout
+			 */
+			String[] args2 = new String[1];
+			args2[0] = path;
+			Blockify.main(args2);
+
+			// TODO : use rules for header/footer/footnote/etc.
+			// BlockifyClassify.main()
+
+			path = path.replaceAll(".pdf", "_spatial.xml");
+			Corpus_PDF corpus = new Corpus_PDF();
+			corpus.loadCorpus(path);
+
+			/*
+			 * 2. Label
+			 */
+			Service_CRF crf_model;
+			System.out.println("Deserialize model from " + path_model);
+			ObjectInputStream in = new ObjectInputStream(new FileInputStream(
+					path_model));
+			crf_model = (Service_CRF) in.readObject();
+			in.close();
+			crf_model.predict(corpus, "./output/");
+
+			/*
+			 * 3. Logical Tree
+			 */
+			ArrayList<Document_Lara> array_to_return = new ArrayList<Document_Lara>();
+			for (Document_PDF currDoc : corpus.getListdoc()) {
+				Document_Lara document_Lara = transform(currDoc);
+				array_to_return.add(document_Lara);
+			}
+
+			if (array_to_return.size() > 1) {
+				System.err
+						.println("Warning : multiples document lara generated");
+			}
+
+			currDocument = array_to_return.get(0);
+		}
+
+		return currDocument;
+	}
+
+	public static void blockifyPDF(String path) throws Exception {
+
 		String[] args2 = new String[1];
 		args2[0] = path;
 		Blockify.main(args2);
-		
+
 		String[] args3 = new String[2];
 		args3[0] = path;
-		args3[1] = "./output/";
+		args3[1] = path;
 		ImagifyBlocks.main(args3);
-		
-		//TODO : use rules for header/footer/footnote/etc.
-//		BlockifyClassify.main()
 
-		path = path.replaceAll(".pdf", "_spatial.xml");
-		Corpus_PDF corpus = new Corpus_PDF();
-		corpus.loadCorpus(path);
-
-		/*
-		 * 2. Label
-		 */
-		Service_CRF crf_model;
-		System.out.println("Deserialize model from " + path_model);
-		ObjectInputStream in = new ObjectInputStream(new FileInputStream(
-				path_model));
-		crf_model = (Service_CRF) in.readObject();
-		in.close();
-		crf_model.predict(corpus, "./output/");
-
-		/*
-		 * 3. Logical Tree
-		 */
-		ArrayList<Document_Lara> array_to_return = new ArrayList<Document_Lara>();
-		for (Document_PDF currDocument : corpus.getListdoc()) {
-			Document_Lara document_Lara = transform(currDocument);
-			array_to_return.add(document_Lara);
-		}
-
-		if (array_to_return.size() > 1) {
-			System.err.println("Warning : multiples document lara generated");
-		}
-
-		return array_to_return.get(0);
-	}
-
-	public static void ocrPDF(String path) throws Exception {
-
-		String[] args2 = new String[1];
-		args2[0] = "./data/training_label_layout/newPDF/";
-		Blockify.main(args2);
-		ImagifyBlocks.main(args2);
 	}
 
 	public static void trainNewModel(String corpus_training,
@@ -114,7 +133,7 @@ public class PDF_Service {
 	public static Document_Lara transform(Document_PDF documentLayout) {
 
 		Document_Lara currDocument = new Document_Lara();
-		
+
 		currDocument.setName(documentLayout.getName());
 		ArrayList<Chunk_Lara> arraylist = new ArrayList<Chunk_Lara>();
 		Chunk_Lara root_Chunk = new Chunk_Lara(0, 0, 0, 0);

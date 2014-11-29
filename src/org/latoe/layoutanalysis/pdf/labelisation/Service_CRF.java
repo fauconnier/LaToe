@@ -68,9 +68,7 @@ public class Service_CRF implements java.io.Serializable{
 	 */
 	
 	CRF crfModel;
-	String crfModel_output;
 	FeatureGenerator_Labelisation featureGen;
-	String featureGen_output;
 	String[] argv;
 
 	/*
@@ -168,19 +166,6 @@ public class Service_CRF implements java.io.Serializable{
 				debugMode = true;
 			}
 		}
-		if ((value = options.getMandatoryProperty("crfModel_output")) != null) {
-			crfModel_output = value;
-		}
-		if ((value = options.getMandatoryProperty("featureGen_output")) != null) {
-			featureGen_output = value;
-		}
-
-		/**
-		 * Ne sait pas ce que c'est.
-		 */
-		// if ((value = options.getProperty("map-tags")) != null) {
-		// mapTagString = value;
-		// }
 		if ((value = options.getProperty("validate")) != null) {
 			validate = true;
 		}

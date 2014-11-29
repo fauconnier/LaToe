@@ -29,11 +29,11 @@ public class Main_Example {
 		 * Wikipedia example Need BDD
 		 */
 		String bdd_host = "localhost";
-		String bdd_name = "FRWIKISEPTEMBER";
-		String bdd_user = "root";
-		String bdd_pwd = "killer";
+		String bdd_name = "";
+		String bdd_user = "";
+		String bdd_pwd = "";
 		try {
-			currDocument = runWikipedia("Barrage", bdd_host, bdd_name, bdd_user, bdd_pwd);
+			currDocument = runWikipedia("Volcan", bdd_host, bdd_name, bdd_user, bdd_pwd);
 		} catch (WikiApiException e) {
 			e.printStackTrace();
 		}
@@ -106,7 +106,8 @@ public class Main_Example {
 		/*
 		 *  Prediction
 		 */
-		Document_Lara currDocument = pdf_service.getDocument(path, "./models/crf.bin");
+		Document_Lara currDocument = pdf_service.getDocument(path, "./models/crf.bin", "",
+				"");
 
 		return currDocument;
 	}
@@ -168,7 +169,7 @@ public class Main_Example {
 		reader_service.writeHTML("./output/", "UTF-8", currDocument);
 
 		// Tree SVG (with max 5 characters in each node)
-		reader_service.writeSVG("./output/", currDocument, 5);
+		reader_service.writeSVG("./output/", currDocument, 10);
 
 		// AA and Glozz
 		try {
