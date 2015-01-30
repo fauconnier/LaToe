@@ -51,4 +51,6 @@ Crédit_d'auteurs
 Redirect
 Lien_marques_secteur
 
+# Warning : this deletes everything
+.*
 

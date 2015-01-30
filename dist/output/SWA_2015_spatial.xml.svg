@@ -1,0 +1,569 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="8735" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<line x1="2923" y1="10" x2="490" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="2923" y1="10" x2="600" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="2923" y1="10" x2="710" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="710" y1="80" x2="50" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="710" y1="80" x2="160" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="710" y1="80" x2="270" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="270" y1="150" x2="270" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="710" y1="80" x2="380" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="380" y1="150" x2="380" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="710" y1="80" x2="655" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="655" y1="150" x2="490" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="490" y1="220" x2="435" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="490" y1="220" x2="545" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="655" y1="150" x2="600" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="655" y1="150" x2="710" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="655" y1="150" x2="820" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="710" y1="80" x2="985" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="985" y1="150" x2="930" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="985" y1="150" x2="1040" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="1040" y1="220" x2="875" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="1040" y1="220" x2="985" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="1040" y1="220" x2="1095" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="1040" y1="220" x2="1205" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="710" y1="80" x2="1150" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1150" y1="150" x2="1150" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="710" y1="80" x2="1370" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1370" y1="150" x2="1260" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="1370" y1="150" x2="1370" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="1370" y1="150" x2="1480" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2923" y1="10" x2="5357" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="5357" y1="80" x2="3075" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="5357" y1="80" x2="3185" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3185" y1="150" x2="2030" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="1315" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="1425" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="1535" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="1645" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="1755" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="1865" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="1975" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="2085" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="2195" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="2305" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="2415" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="2525" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="2635" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2030" y1="220" x2="2745" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="3185" y1="150" x2="3020" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3020" y1="220" x2="2855" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="3020" y1="220" x2="2965" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="3020" y1="220" x2="3075" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="3020" y1="220" x2="3185" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="3185" y1="150" x2="4340" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="3295" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="3405" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="3515" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="3625" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="3735" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="3845" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="3955" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="4065" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="4175" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="4285" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="4395" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="4505" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="4615" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="4725" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="4835" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="4945" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="5055" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="5165" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="5275" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="4340" y1="220" x2="5385" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5357" y1="80" x2="5935" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="5935" y1="150" x2="5770" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="5935" y1="150" x2="5880" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="5935" y1="150" x2="5990" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="5495" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="5605" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="5715" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="5825" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="5935" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="6045" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="6155" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="6265" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="6375" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5990" y1="220" x2="6485" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="5935" y1="150" x2="6100" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="5357" y1="80" x2="6870" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="6870" y1="150" x2="6870" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="5357" y1="80" x2="7640" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="150" x2="7640" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="6595" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="6705" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="6815" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="6925" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="7035" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="7145" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="7255" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="7365" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="7475" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="7585" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="7695" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="7805" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="7915" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="8025" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="8135" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="8245" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="8355" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="8465" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="8575" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="7640" y1="220" x2="8685" y2="290" style="stroke:black; stroke-width:2px;" />
+<rect x="1" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  I.2.7
+</text>
+<rect x="1101" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1108" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  5. LE
+</text>
+<rect x="6546" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6553" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  [16] 
+</text>
+<rect x="3246" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3253" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Table
+</text>
+<rect x="3026" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3033" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The f
+</text>
+<rect x="4566" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4573" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  SVM 7
+</text>
+<rect x="7866" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7873" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  inter
+</text>
+<rect x="1376" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1383" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The s
+</text>
+<rect x="2036" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2043" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The P
+</text>
+<rect x="661" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="668" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Figur
+</text>
+<rect x="4016" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4023" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  dev s
+</text>
+<rect x="6216" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6223" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  analy
+</text>
+<rect x="6051" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6058" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  volum
+</text>
+<rect x="4126" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4133" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  SVM 7
+</text>
+<rect x="6821" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6828" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  confe
+</text>
+<rect x="606" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="613" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  3. EN
+</text>
+<rect x="5831" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5838" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Our w
+</text>
+<rect x="7591" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7598" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  2006 
+</text>
+<rect x="8306" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8313" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Langu
+</text>
+<rect x="7316" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7323" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  [22] 
+</text>
+<rect x="221" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="228" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  1. IN
+</text>
+<rect x="6656" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6663" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  d’Int
+</text>
+<rect x="551" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="558" y="83" style="font-family:sans-serif;font-size:12px;">
+[p]  Impro
+</text>
+<rect x="3356" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3363" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  dev s
+</text>
+<rect x="1926" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1933" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The f
+</text>
+<rect x="2476" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2483" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Table
+</text>
+<rect x="4896" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4903" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  basel
+</text>
+<rect x="5336" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5343" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The a
+</text>
+<rect x="936" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="943" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  notat
+</text>
+<rect x="991" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="998" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  In a 
+</text>
+<rect x="5006" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5013" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Table
+</text>
+<rect x="8196" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8203" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  la 20
+</text>
+<rect x="2971" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2978" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  most 
+</text>
+<rect x="826" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="833" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The a
+</text>
+<rect x="4786" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4793" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  SVM+ 
+</text>
+<rect x="3576" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3583" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  basel
+</text>
+<rect x="1816" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1823" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  • f9 
+</text>
+<rect x="3136" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3143" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  f14 x
+</text>
+<rect x="7536" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7543" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Learn
+</text>
+<rect x="5886" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5893" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  self-
+</text>
+<rect x="1706" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1713" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The p
+</text>
+<rect x="8416" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8423" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Learn
+</text>
+<rect x="8086" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8093" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  [26] 
+</text>
+<rect x="496" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="503" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  1The 
+</text>
+<rect x="2874" y="1" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2881" y="13" style="font-family:sans-serif;font-size:12px;">
+SWA_2015_spatial.xml
+</text>
+<rect x="331" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="338" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  The t
+</text>
+<rect x="6876" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6883" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  First
+</text>
+<rect x="3906" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3913" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The t
+</text>
+<rect x="1211" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1218" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Two s
+</text>
+<rect x="3796" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3803" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  basel
+</text>
+<rect x="1981" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1988" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  The f
+</text>
+<rect x="7976" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7983" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  697–7
+</text>
+<rect x="7591" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7598" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  2006.
+</text>
+<rect x="936" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="943" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  4. DE
+</text>
+<rect x="5941" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5948" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  ES, t
+</text>
+<rect x="331" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="338" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  2. RE
+</text>
+<rect x="3686" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3693" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  SVM 7
+</text>
+<rect x="2916" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2923" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Patte
+</text>
+<rect x="6326" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6333" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  2005.
+</text>
+<rect x="5308" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5315" y="83" style="font-family:sans-serif;font-size:12px;">
+[h2]  5.2 C
+</text>
+<rect x="6106" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6113" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  [8] P
+</text>
+<rect x="3136" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3143" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  5.3 F
+</text>
+<rect x="1321" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1328" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  For t
+</text>
+<rect x="661" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="668" y="83" style="font-family:sans-serif;font-size:12px;">
+[h2]  Categ
+</text>
+<rect x="2256" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2263" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  rf 6 
+</text>
+<rect x="8636" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8643" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Confe
+</text>
+<rect x="4236" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4243" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  MaxEn
+</text>
+<rect x="4456" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4463" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  basel
+</text>
+<rect x="5776" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5783" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  pages
+</text>
+<rect x="441" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="448" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Enume
+</text>
+<rect x="7646" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7653" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Advan
+</text>
+<rect x="5996" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6003" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  462–4
+</text>
+<rect x="4676" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4683" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  MaxEn
+</text>
+<rect x="5721" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5728" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  In th
+</text>
+<rect x="5666" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5673" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Proce
+</text>
+<rect x="4291" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4298" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  For r
+</text>
+<rect x="2146" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2153" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  cov f
+</text>
+<rect x="4346" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4353" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  SVM+ 
+</text>
+<rect x="7426" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7433" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  learn
+</text>
+<rect x="5446" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5453" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Proce
+</text>
+<rect x="7756" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7763" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  [25] 
+</text>
+<rect x="3026" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3033" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  In or
+</text>
+<rect x="1266" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1273" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  6http
+</text>
+<rect x="2586" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2593" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Patte
+</text>
+<rect x="1156" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1163" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  This 
+</text>
+<rect x="3466" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3473" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  SVM 8
+</text>
+<rect x="551" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="558" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  are d
+</text>
+<rect x="6986" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6993" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Seman
+</text>
+<rect x="5556" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5563" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  1992.
+</text>
+<rect x="5886" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5893" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  7. CO
+</text>
+<rect x="7206" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7213" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  17–24
+</text>
+<rect x="1321" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1328" y="153" style="font-family:sans-serif;font-size:12px;">
+[h3]  5.1 M
+</text>
+<rect x="5226" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5233" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The t
+</text>
+<rect x="386" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="393" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The d
+</text>
+<rect x="881" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="888" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Our c
+</text>
+<rect x="5116" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5123" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  dev s
+</text>
+<rect x="7096" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7103" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  from 
+</text>
+<rect x="1596" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1603" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  • f1 
+</text>
+<rect x="2366" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2373" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  where
+</text>
+<rect x="221" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="228" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  The p
+</text>
+<rect x="771" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="778" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  It sh
+</text>
+<rect x="441" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="448" y="83" style="font-family:sans-serif;font-size:12px;">
+[titleDocument]  A sup
+</text>
+<rect x="6436" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6443" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  acqui
+</text>
+<rect x="1101" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1108" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  In th
+</text>
+<rect x="1046" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1053" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Table
+</text>
+<rect x="2696" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2703" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The t
+</text>
+<rect x="1486" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1493" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  The p
+</text>
+<rect x="6821" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6828" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  pages
+</text>
+<rect x="111" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="118" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Learn
+</text>
+<rect x="8526" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8533" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  and A
+</text>
+<rect x="6766" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6773" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Conna
+</text>
+<rect x="1431" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1438" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Our e
+</text>
+<rect x="2806" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2813" y="293" style="font-family:sans-serif;font-size:12px;">
+[item]  Table
+</text>
+</svg>
+

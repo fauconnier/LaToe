@@ -1,11 +1,17 @@
 package org.melodi.objectslogic;
 
+import java.io.IOException;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+import org.melodi.analyser.talismane_client.service.Sentence;
+import org.melodi.analyser.talismane_client.service.Structure;
+import org.melodi.analyser.talismane_client.service.TalismaneClient;
+import org.melodi.analyser.talismane_client.service.Token;
 import org.melodi.reader.larat.internal.Unit;
 import org.melodi.tools.common.IO_Service;
 import org.melodi.tools.common.Segment_Tool;
@@ -357,6 +363,51 @@ public class Document_Lara  implements java.io.Serializable{
 		
 		
 		return overlapped_chunk;
+	}
+	
+	public String getTextWithMFM(boolean talismane) throws UnknownHostException, IOException, InterruptedException{
+		
+		String plainText = "";
+		for (Chunk_Lara currChunk : this.getChunk()) {
+			
+			String chunkText = currChunk.getText();
+			chunkText = chunkText.replace("\n", " ");
+			plainText += chunkText + " ";
+		}
+		
+//		plainText = plainText.toLowerCase();
+//		plainText = plainText.replaceAll("[^a-zA-Z0-9áàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\\s']", "").replaceAll("\\s+", " ");
+	
+		if(talismane){
+		TalismaneClient talismane_client = new TalismaneClient();
+		Structure currStructure = talismane_client.analyse(plainText,false);
+		
+		String newString = "";
+		for(Sentence currSentence : currStructure){
+			for(Token currToken : currSentence){
+				if(currToken.getCppostag().equals("NC") ||  currToken.getCppostag().equals("NPP")){
+					if(currToken.getLemma().equals("_")){
+						newString += currToken.getForm() + " ";
+					}
+					else{
+						newString += currToken.getLemma() + " ";
+					}
+				}
+			}
+		}
+		newString = newString.toLowerCase();
+		newString = newString.replaceAll("[^a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\\s']", "").replaceAll("\\s+", " ");
+		plainText = newString;
+		}
+		else{
+			plainText = plainText.toLowerCase();
+		
+			plainText = plainText.replaceAll(" [a-z]'"," ");
+			plainText = plainText.replaceAll("[^a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\\s']", "").replaceAll("\\s+", " ");
+		}
+		
+		
+		return plainText;
 	}
 	
 	

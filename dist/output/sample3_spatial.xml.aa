@@ -1,0 +1,2844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations>
+  <metadata corpusHashcode="42606-0" />
+  <unit id="layout_0">
+    <metadata>
+      <author>layout</author>
+      <creation-date>0</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>title</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="0" />
+      </start>
+      <end>
+        <singlePosition index="19" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_1">
+    <metadata>
+      <author>layout</author>
+      <creation-date>1</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="19" />
+      </start>
+      <end>
+        <singlePosition index="87" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_2">
+    <metadata>
+      <author>layout</author>
+      <creation-date>2</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="87" />
+      </start>
+      <end>
+        <singlePosition index="1088" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_3">
+    <metadata>
+      <author>layout</author>
+      <creation-date>3</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="1088" />
+      </start>
+      <end>
+        <singlePosition index="1944" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_4">
+    <metadata>
+      <author>layout</author>
+      <creation-date>4</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="1944" />
+      </start>
+      <end>
+        <singlePosition index="2075" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_5">
+    <metadata>
+      <author>layout</author>
+      <creation-date>5</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="2075" />
+      </start>
+      <end>
+        <singlePosition index="3399" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_6">
+    <metadata>
+      <author>layout</author>
+      <creation-date>6</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="3399" />
+      </start>
+      <end>
+        <singlePosition index="4462" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_7">
+    <metadata>
+      <author>layout</author>
+      <creation-date>7</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="4462" />
+      </start>
+      <end>
+        <singlePosition index="5712" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_8">
+    <metadata>
+      <author>layout</author>
+      <creation-date>8</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>title</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="5712" />
+      </start>
+      <end>
+        <singlePosition index="5741" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_9">
+    <metadata>
+      <author>layout</author>
+      <creation-date>9</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="5741" />
+      </start>
+      <end>
+        <singlePosition index="7316" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_10">
+    <metadata>
+      <author>layout</author>
+      <creation-date>10</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="7316" />
+      </start>
+      <end>
+        <singlePosition index="8362" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_11">
+    <metadata>
+      <author>layout</author>
+      <creation-date>11</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>title</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="8362" />
+      </start>
+      <end>
+        <singlePosition index="8379" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_12">
+    <metadata>
+      <author>layout</author>
+      <creation-date>12</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="8379" />
+      </start>
+      <end>
+        <singlePosition index="8706" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_13">
+    <metadata>
+      <author>layout</author>
+      <creation-date>13</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="8706" />
+      </start>
+      <end>
+        <singlePosition index="8924" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_14">
+    <metadata>
+      <author>layout</author>
+      <creation-date>14</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="8924" />
+      </start>
+      <end>
+        <singlePosition index="8971" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_15">
+    <metadata>
+      <author>layout</author>
+      <creation-date>15</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="8971" />
+      </start>
+      <end>
+        <singlePosition index="9028" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_16">
+    <metadata>
+      <author>layout</author>
+      <creation-date>16</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="9028" />
+      </start>
+      <end>
+        <singlePosition index="9239" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_17">
+    <metadata>
+      <author>layout</author>
+      <creation-date>17</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="9239" />
+      </start>
+      <end>
+        <singlePosition index="9272" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_18">
+    <metadata>
+      <author>layout</author>
+      <creation-date>18</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="9272" />
+      </start>
+      <end>
+        <singlePosition index="9361" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_19">
+    <metadata>
+      <author>layout</author>
+      <creation-date>19</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="9361" />
+      </start>
+      <end>
+        <singlePosition index="9408" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_20">
+    <metadata>
+      <author>layout</author>
+      <creation-date>20</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="9408" />
+      </start>
+      <end>
+        <singlePosition index="9936" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_21">
+    <metadata>
+      <author>layout</author>
+      <creation-date>21</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>title</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="9936" />
+      </start>
+      <end>
+        <singlePosition index="9970" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_22">
+    <metadata>
+      <author>layout</author>
+      <creation-date>22</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="9970" />
+      </start>
+      <end>
+        <singlePosition index="10696" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_23">
+    <metadata>
+      <author>layout</author>
+      <creation-date>23</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="10696" />
+      </start>
+      <end>
+        <singlePosition index="11549" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_24">
+    <metadata>
+      <author>layout</author>
+      <creation-date>24</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="11549" />
+      </start>
+      <end>
+        <singlePosition index="12201" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_25">
+    <metadata>
+      <author>layout</author>
+      <creation-date>25</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="12201" />
+      </start>
+      <end>
+        <singlePosition index="13033" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_26">
+    <metadata>
+      <author>layout</author>
+      <creation-date>26</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="13033" />
+      </start>
+      <end>
+        <singlePosition index="13935" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_27">
+    <metadata>
+      <author>layout</author>
+      <creation-date>27</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>title</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="13935" />
+      </start>
+      <end>
+        <singlePosition index="13964" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_28">
+    <metadata>
+      <author>layout</author>
+      <creation-date>28</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="13964" />
+      </start>
+      <end>
+        <singlePosition index="14103" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_29">
+    <metadata>
+      <author>layout</author>
+      <creation-date>29</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="14103" />
+      </start>
+      <end>
+        <singlePosition index="14183" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_30">
+    <metadata>
+      <author>layout</author>
+      <creation-date>30</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="14183" />
+      </start>
+      <end>
+        <singlePosition index="14239" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_31">
+    <metadata>
+      <author>layout</author>
+      <creation-date>31</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="14239" />
+      </start>
+      <end>
+        <singlePosition index="14529" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_32">
+    <metadata>
+      <author>layout</author>
+      <creation-date>32</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="14529" />
+      </start>
+      <end>
+        <singlePosition index="14628" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_33">
+    <metadata>
+      <author>layout</author>
+      <creation-date>33</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>sectionTitle</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="14628" />
+      </start>
+      <end>
+        <singlePosition index="14665" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_34">
+    <metadata>
+      <author>layout</author>
+      <creation-date>34</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="14665" />
+      </start>
+      <end>
+        <singlePosition index="14779" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_35">
+    <metadata>
+      <author>layout</author>
+      <creation-date>35</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="14779" />
+      </start>
+      <end>
+        <singlePosition index="14898" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_36">
+    <metadata>
+      <author>layout</author>
+      <creation-date>36</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="14898" />
+      </start>
+      <end>
+        <singlePosition index="15307" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_37">
+    <metadata>
+      <author>layout</author>
+      <creation-date>37</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="15307" />
+      </start>
+      <end>
+        <singlePosition index="15446" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_38">
+    <metadata>
+      <author>layout</author>
+      <creation-date>38</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="15446" />
+      </start>
+      <end>
+        <singlePosition index="15550" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_39">
+    <metadata>
+      <author>layout</author>
+      <creation-date>39</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="15550" />
+      </start>
+      <end>
+        <singlePosition index="15918" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_40">
+    <metadata>
+      <author>layout</author>
+      <creation-date>40</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>sectionTitle</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="15918" />
+      </start>
+      <end>
+        <singlePosition index="15959" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_41">
+    <metadata>
+      <author>layout</author>
+      <creation-date>41</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="15959" />
+      </start>
+      <end>
+        <singlePosition index="16280" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_42">
+    <metadata>
+      <author>layout</author>
+      <creation-date>42</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="16280" />
+      </start>
+      <end>
+        <singlePosition index="16565" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_43">
+    <metadata>
+      <author>layout</author>
+      <creation-date>43</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="16565" />
+      </start>
+      <end>
+        <singlePosition index="17117" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_44">
+    <metadata>
+      <author>layout</author>
+      <creation-date>44</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="17117" />
+      </start>
+      <end>
+        <singlePosition index="17189" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_45">
+    <metadata>
+      <author>layout</author>
+      <creation-date>45</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="17189" />
+      </start>
+      <end>
+        <singlePosition index="17594" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_46">
+    <metadata>
+      <author>layout</author>
+      <creation-date>46</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="17594" />
+      </start>
+      <end>
+        <singlePosition index="17744" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_47">
+    <metadata>
+      <author>layout</author>
+      <creation-date>47</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="17744" />
+      </start>
+      <end>
+        <singlePosition index="18166" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_48">
+    <metadata>
+      <author>layout</author>
+      <creation-date>48</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="18166" />
+      </start>
+      <end>
+        <singlePosition index="18574" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_49">
+    <metadata>
+      <author>layout</author>
+      <creation-date>49</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="18574" />
+      </start>
+      <end>
+        <singlePosition index="19187" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_50">
+    <metadata>
+      <author>layout</author>
+      <creation-date>50</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>title</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="19187" />
+      </start>
+      <end>
+        <singlePosition index="19215" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_51">
+    <metadata>
+      <author>layout</author>
+      <creation-date>51</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="19215" />
+      </start>
+      <end>
+        <singlePosition index="19542" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_52">
+    <metadata>
+      <author>layout</author>
+      <creation-date>52</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>sectionTitle</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="19542" />
+      </start>
+      <end>
+        <singlePosition index="19578" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_53">
+    <metadata>
+      <author>layout</author>
+      <creation-date>53</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="19578" />
+      </start>
+      <end>
+        <singlePosition index="19654" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_54">
+    <metadata>
+      <author>layout</author>
+      <creation-date>54</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="19654" />
+      </start>
+      <end>
+        <singlePosition index="19714" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_55">
+    <metadata>
+      <author>layout</author>
+      <creation-date>55</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="19714" />
+      </start>
+      <end>
+        <singlePosition index="20406" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_56">
+    <metadata>
+      <author>layout</author>
+      <creation-date>56</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="20406" />
+      </start>
+      <end>
+        <singlePosition index="20469" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_57">
+    <metadata>
+      <author>layout</author>
+      <creation-date>57</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="20469" />
+      </start>
+      <end>
+        <singlePosition index="20525" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_58">
+    <metadata>
+      <author>layout</author>
+      <creation-date>58</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="20525" />
+      </start>
+      <end>
+        <singlePosition index="20795" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_59">
+    <metadata>
+      <author>layout</author>
+      <creation-date>59</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="20795" />
+      </start>
+      <end>
+        <singlePosition index="21066" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_60">
+    <metadata>
+      <author>layout</author>
+      <creation-date>60</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="21066" />
+      </start>
+      <end>
+        <singlePosition index="21173" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_61">
+    <metadata>
+      <author>layout</author>
+      <creation-date>61</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="21173" />
+      </start>
+      <end>
+        <singlePosition index="21388" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_62">
+    <metadata>
+      <author>layout</author>
+      <creation-date>62</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>sectionTitle</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="21388" />
+      </start>
+      <end>
+        <singlePosition index="21428" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_63">
+    <metadata>
+      <author>layout</author>
+      <creation-date>63</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="21428" />
+      </start>
+      <end>
+        <singlePosition index="21541" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_64">
+    <metadata>
+      <author>layout</author>
+      <creation-date>64</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="21541" />
+      </start>
+      <end>
+        <singlePosition index="22235" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_65">
+    <metadata>
+      <author>layout</author>
+      <creation-date>65</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="22235" />
+      </start>
+      <end>
+        <singlePosition index="22472" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_66">
+    <metadata>
+      <author>layout</author>
+      <creation-date>66</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="22472" />
+      </start>
+      <end>
+        <singlePosition index="23061" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_67">
+    <metadata>
+      <author>layout</author>
+      <creation-date>67</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="23061" />
+      </start>
+      <end>
+        <singlePosition index="23412" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_68">
+    <metadata>
+      <author>layout</author>
+      <creation-date>68</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="23412" />
+      </start>
+      <end>
+        <singlePosition index="23636" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_69">
+    <metadata>
+      <author>layout</author>
+      <creation-date>69</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="23636" />
+      </start>
+      <end>
+        <singlePosition index="23681" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_70">
+    <metadata>
+      <author>layout</author>
+      <creation-date>70</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="23681" />
+      </start>
+      <end>
+        <singlePosition index="23916" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_71">
+    <metadata>
+      <author>layout</author>
+      <creation-date>71</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="23916" />
+      </start>
+      <end>
+        <singlePosition index="24166" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_72">
+    <metadata>
+      <author>layout</author>
+      <creation-date>72</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="24166" />
+      </start>
+      <end>
+        <singlePosition index="24421" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_73">
+    <metadata>
+      <author>layout</author>
+      <creation-date>73</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="24421" />
+      </start>
+      <end>
+        <singlePosition index="24754" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_74">
+    <metadata>
+      <author>layout</author>
+      <creation-date>74</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="24754" />
+      </start>
+      <end>
+        <singlePosition index="24826" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_75">
+    <metadata>
+      <author>layout</author>
+      <creation-date>75</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="24826" />
+      </start>
+      <end>
+        <singlePosition index="25075" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_76">
+    <metadata>
+      <author>layout</author>
+      <creation-date>76</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="25075" />
+      </start>
+      <end>
+        <singlePosition index="25785" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_77">
+    <metadata>
+      <author>layout</author>
+      <creation-date>77</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="25785" />
+      </start>
+      <end>
+        <singlePosition index="26324" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_78">
+    <metadata>
+      <author>layout</author>
+      <creation-date>78</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="26324" />
+      </start>
+      <end>
+        <singlePosition index="26427" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_79">
+    <metadata>
+      <author>layout</author>
+      <creation-date>79</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="26427" />
+      </start>
+      <end>
+        <singlePosition index="26911" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_80">
+    <metadata>
+      <author>layout</author>
+      <creation-date>80</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="26911" />
+      </start>
+      <end>
+        <singlePosition index="27230" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_81">
+    <metadata>
+      <author>layout</author>
+      <creation-date>81</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="27230" />
+      </start>
+      <end>
+        <singlePosition index="27461" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_82">
+    <metadata>
+      <author>layout</author>
+      <creation-date>82</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="27461" />
+      </start>
+      <end>
+        <singlePosition index="27760" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_83">
+    <metadata>
+      <author>layout</author>
+      <creation-date>83</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="27760" />
+      </start>
+      <end>
+        <singlePosition index="28073" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_84">
+    <metadata>
+      <author>layout</author>
+      <creation-date>84</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="28073" />
+      </start>
+      <end>
+        <singlePosition index="28191" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_85">
+    <metadata>
+      <author>layout</author>
+      <creation-date>85</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="28191" />
+      </start>
+      <end>
+        <singlePosition index="28574" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_86">
+    <metadata>
+      <author>layout</author>
+      <creation-date>86</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="28574" />
+      </start>
+      <end>
+        <singlePosition index="28849" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_87">
+    <metadata>
+      <author>layout</author>
+      <creation-date>87</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>title</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="28849" />
+      </start>
+      <end>
+        <singlePosition index="28889" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_88">
+    <metadata>
+      <author>layout</author>
+      <creation-date>88</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="28889" />
+      </start>
+      <end>
+        <singlePosition index="28922" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_89">
+    <metadata>
+      <author>layout</author>
+      <creation-date>89</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="28922" />
+      </start>
+      <end>
+        <singlePosition index="29071" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_90">
+    <metadata>
+      <author>layout</author>
+      <creation-date>90</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="29071" />
+      </start>
+      <end>
+        <singlePosition index="29139" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_91">
+    <metadata>
+      <author>layout</author>
+      <creation-date>91</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="29139" />
+      </start>
+      <end>
+        <singlePosition index="29789" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_92">
+    <metadata>
+      <author>layout</author>
+      <creation-date>92</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>title</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="29789" />
+      </start>
+      <end>
+        <singlePosition index="29801" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_93">
+    <metadata>
+      <author>layout</author>
+      <creation-date>93</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="29801" />
+      </start>
+      <end>
+        <singlePosition index="30123" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_94">
+    <metadata>
+      <author>layout</author>
+      <creation-date>94</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="30123" />
+      </start>
+      <end>
+        <singlePosition index="30541" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_95">
+    <metadata>
+      <author>layout</author>
+      <creation-date>95</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="30541" />
+      </start>
+      <end>
+        <singlePosition index="30921" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_96">
+    <metadata>
+      <author>layout</author>
+      <creation-date>96</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="30921" />
+      </start>
+      <end>
+        <singlePosition index="30981" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_97">
+    <metadata>
+      <author>layout</author>
+      <creation-date>97</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="30981" />
+      </start>
+      <end>
+        <singlePosition index="31089" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_98">
+    <metadata>
+      <author>layout</author>
+      <creation-date>98</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="31089" />
+      </start>
+      <end>
+        <singlePosition index="31163" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_99">
+    <metadata>
+      <author>layout</author>
+      <creation-date>99</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="31163" />
+      </start>
+      <end>
+        <singlePosition index="31294" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_100">
+    <metadata>
+      <author>layout</author>
+      <creation-date>100</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="31294" />
+      </start>
+      <end>
+        <singlePosition index="31373" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_101">
+    <metadata>
+      <author>layout</author>
+      <creation-date>101</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="31373" />
+      </start>
+      <end>
+        <singlePosition index="31538" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_102">
+    <metadata>
+      <author>layout</author>
+      <creation-date>102</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="31538" />
+      </start>
+      <end>
+        <singlePosition index="31611" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_103">
+    <metadata>
+      <author>layout</author>
+      <creation-date>103</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="31611" />
+      </start>
+      <end>
+        <singlePosition index="32065" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_104">
+    <metadata>
+      <author>layout</author>
+      <creation-date>104</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="32065" />
+      </start>
+      <end>
+        <singlePosition index="32161" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_105">
+    <metadata>
+      <author>layout</author>
+      <creation-date>105</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="32161" />
+      </start>
+      <end>
+        <singlePosition index="32280" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_106">
+    <metadata>
+      <author>layout</author>
+      <creation-date>106</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="32280" />
+      </start>
+      <end>
+        <singlePosition index="32313" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_107">
+    <metadata>
+      <author>layout</author>
+      <creation-date>107</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="32313" />
+      </start>
+      <end>
+        <singlePosition index="32440" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_108">
+    <metadata>
+      <author>layout</author>
+      <creation-date>108</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="32440" />
+      </start>
+      <end>
+        <singlePosition index="32495" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_109">
+    <metadata>
+      <author>layout</author>
+      <creation-date>109</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="32495" />
+      </start>
+      <end>
+        <singlePosition index="33804" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_110">
+    <metadata>
+      <author>layout</author>
+      <creation-date>110</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="33804" />
+      </start>
+      <end>
+        <singlePosition index="34226" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_111">
+    <metadata>
+      <author>layout</author>
+      <creation-date>111</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="34226" />
+      </start>
+      <end>
+        <singlePosition index="34348" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_112">
+    <metadata>
+      <author>layout</author>
+      <creation-date>112</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="34348" />
+      </start>
+      <end>
+        <singlePosition index="34861" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_113">
+    <metadata>
+      <author>layout</author>
+      <creation-date>113</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="34861" />
+      </start>
+      <end>
+        <singlePosition index="36523" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_114">
+    <metadata>
+      <author>layout</author>
+      <creation-date>114</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="36523" />
+      </start>
+      <end>
+        <singlePosition index="37452" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_115">
+    <metadata>
+      <author>layout</author>
+      <creation-date>115</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="37452" />
+      </start>
+      <end>
+        <singlePosition index="37651" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_116">
+    <metadata>
+      <author>layout</author>
+      <creation-date>116</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="37651" />
+      </start>
+      <end>
+        <singlePosition index="37998" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_117">
+    <metadata>
+      <author>layout</author>
+      <creation-date>117</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="37998" />
+      </start>
+      <end>
+        <singlePosition index="38184" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_118">
+    <metadata>
+      <author>layout</author>
+      <creation-date>118</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>title</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="38184" />
+      </start>
+      <end>
+        <singlePosition index="38194" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_119">
+    <metadata>
+      <author>layout</author>
+      <creation-date>119</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="38194" />
+      </start>
+      <end>
+        <singlePosition index="38307" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_120">
+    <metadata>
+      <author>layout</author>
+      <creation-date>120</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="38307" />
+      </start>
+      <end>
+        <singlePosition index="38416" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_121">
+    <metadata>
+      <author>layout</author>
+      <creation-date>121</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="38416" />
+      </start>
+      <end>
+        <singlePosition index="38525" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_122">
+    <metadata>
+      <author>layout</author>
+      <creation-date>122</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="38525" />
+      </start>
+      <end>
+        <singlePosition index="38636" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_123">
+    <metadata>
+      <author>layout</author>
+      <creation-date>123</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="38636" />
+      </start>
+      <end>
+        <singlePosition index="38743" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_124">
+    <metadata>
+      <author>layout</author>
+      <creation-date>124</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="38743" />
+      </start>
+      <end>
+        <singlePosition index="38953" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_125">
+    <metadata>
+      <author>layout</author>
+      <creation-date>125</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="38953" />
+      </start>
+      <end>
+        <singlePosition index="39281" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_126">
+    <metadata>
+      <author>layout</author>
+      <creation-date>126</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="39281" />
+      </start>
+      <end>
+        <singlePosition index="39483" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_127">
+    <metadata>
+      <author>layout</author>
+      <creation-date>127</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="39483" />
+      </start>
+      <end>
+        <singlePosition index="39560" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_128">
+    <metadata>
+      <author>layout</author>
+      <creation-date>128</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="39560" />
+      </start>
+      <end>
+        <singlePosition index="39847" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_129">
+    <metadata>
+      <author>layout</author>
+      <creation-date>129</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>listItem</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="39847" />
+      </start>
+      <end>
+        <singlePosition index="39956" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_130">
+    <metadata>
+      <author>layout</author>
+      <creation-date>130</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="39956" />
+      </start>
+      <end>
+        <singlePosition index="40071" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_131">
+    <metadata>
+      <author>layout</author>
+      <creation-date>131</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="40071" />
+      </start>
+      <end>
+        <singlePosition index="40083" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_132">
+    <metadata>
+      <author>layout</author>
+      <creation-date>132</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="40083" />
+      </start>
+      <end>
+        <singlePosition index="40193" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_133">
+    <metadata>
+      <author>layout</author>
+      <creation-date>133</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="40193" />
+      </start>
+      <end>
+        <singlePosition index="40260" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_134">
+    <metadata>
+      <author>layout</author>
+      <creation-date>134</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="40260" />
+      </start>
+      <end>
+        <singlePosition index="40490" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_135">
+    <metadata>
+      <author>layout</author>
+      <creation-date>135</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>paragraph</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="40490" />
+      </start>
+      <end>
+        <singlePosition index="40667" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_136">
+    <metadata>
+      <author>layout</author>
+      <creation-date>136</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>list</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="8924" />
+      </start>
+      <end>
+        <singlePosition index="9408" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_137">
+    <metadata>
+      <author>layout</author>
+      <creation-date>137</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>list</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="14103" />
+      </start>
+      <end>
+        <singlePosition index="14628" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_138">
+    <metadata>
+      <author>layout</author>
+      <creation-date>138</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>list</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="28889" />
+      </start>
+      <end>
+        <singlePosition index="29139" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_139">
+    <metadata>
+      <author>layout</author>
+      <creation-date>139</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>list</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="32161" />
+      </start>
+      <end>
+        <singlePosition index="32495" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_140">
+    <metadata>
+      <author>layout</author>
+      <creation-date>140</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>list</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="38194" />
+      </start>
+      <end>
+        <singlePosition index="38636" />
+      </end>
+    </positioning>
+  </unit>
+  <unit id="layout_141">
+    <metadata>
+      <author>layout</author>
+      <creation-date>141</creation-date>
+      <lastModifier>n/a</lastModifier>
+      <lastModificationDate>0</lastModificationDate>
+    </metadata>
+    <characterisation>
+      <type>list</type>
+      <featureSet />
+    </characterisation>
+    <positioning>
+      <start>
+        <singlePosition index="39281" />
+      </start>
+      <end>
+        <singlePosition index="39956" />
+      </end>
+    </positioning>
+  </unit>
+</annotations>

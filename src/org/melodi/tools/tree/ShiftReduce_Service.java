@@ -19,8 +19,6 @@ public class ShiftReduce_Service {
 	
 	
 	public String read_shiftreduce(Document_Lara flatDoc){
-		
-		
 		/*
 		 * Objets pour l'affichage
 		 */

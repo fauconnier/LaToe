@@ -1,0 +1,564 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="9340" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<line x1="3707" y1="10" x2="50" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="3707" y1="10" x2="160" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="160" y1="80" x2="105" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="160" y1="80" x2="215" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3707" y1="10" x2="737" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="737" y1="80" x2="325" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="325" y1="150" x2="325" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="737" y1="80" x2="600" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="600" y1="150" x2="435" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="600" y1="150" x2="545" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="600" y1="150" x2="655" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="600" y1="150" x2="765" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="737" y1="80" x2="710" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="737" y1="80" x2="820" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="737" y1="80" x2="930" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="737" y1="80" x2="1040" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="737" y1="80" x2="1150" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3707" y1="10" x2="1810" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="1260" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="1370" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="1480" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="1590" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="1700" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="1810" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="150" x2="1810" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="1920" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1920" y1="150" x2="1920" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="2030" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="2140" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="2250" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="1810" y1="80" x2="2360" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3707" y1="10" x2="3185" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="3185" y1="80" x2="2470" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3185" y1="80" x2="2580" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="2085" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2085" y1="220" x2="2085" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="2195" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="2305" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2305" y1="220" x2="2305" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="2415" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="2525" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="2635" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="2745" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="2855" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="2965" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="2580" y1="150" x2="3075" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3185" y1="80" x2="3295" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3295" y1="150" x2="3185" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3185" y1="220" x2="3185" y2="290" style="stroke:black; stroke-width:2px;" />
+<line x1="3295" y1="150" x2="3295" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3295" y1="150" x2="3405" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3185" y1="80" x2="3625" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3625" y1="150" x2="3515" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3625" y1="150" x2="3625" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3625" y1="150" x2="3735" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3185" y1="80" x2="3900" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3900" y1="150" x2="3845" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3900" y1="150" x2="3955" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="3707" y1="10" x2="4450" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="4450" y1="80" x2="4010" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="4450" y1="80" x2="4120" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="4450" y1="80" x2="4230" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="4450" y1="80" x2="4340" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="4450" y1="80" x2="4450" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="4450" y1="80" x2="4560" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="4560" y1="150" x2="4560" y2="220" style="stroke:black; stroke-width:2px;" />
+<line x1="4450" y1="80" x2="4670" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="4450" y1="80" x2="4780" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="4450" y1="80" x2="4890" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3707" y1="10" x2="5165" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="5165" y1="80" x2="5000" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="5165" y1="80" x2="5110" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="5165" y1="80" x2="5220" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="5165" y1="80" x2="5330" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="3707" y1="10" x2="7365" y2="80" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="5440" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="5550" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="5660" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="5770" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="5880" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="5990" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="6100" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="6210" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="6320" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="6430" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="6540" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="6650" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="6760" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="6870" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="6980" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="7090" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="7200" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="7310" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="7420" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="7530" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="7640" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="7750" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="7860" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="7970" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="8080" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="8190" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="8300" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="8410" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="8520" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="8630" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="8740" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="8850" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="8960" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="9070" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="9180" y2="150" style="stroke:black; stroke-width:2px;" />
+<line x1="7365" y1="80" x2="9290" y2="150" style="stroke:black; stroke-width:2px;" />
+<rect x="2696" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2703" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  a Les
+</text>
+<rect x="8801" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8808" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  commu
+</text>
+<rect x="3906" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3913" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Notre
+</text>
+<rect x="1651" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1658" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  L’ori
+</text>
+<rect x="3136" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3143" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Dans 
+</text>
+<rect x="6491" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6498" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Const
+</text>
+<rect x="3576" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3583" y="153" style="font-family:sans-serif;font-size:12px;">
+[h2]  4.3 L
+</text>
+<rect x="5171" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5178" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Accep
+</text>
+<rect x="1871" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1878" y="223" style="font-family:sans-serif;font-size:12px;">
+[quote]  « Sur
+</text>
+<rect x="2366" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2373" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Si Sa
+</text>
+<rect x="111" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="118" y="83" style="font-family:sans-serif;font-size:12px;">
+[h1]  1 Int
+</text>
+<rect x="2146" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2153" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Qu’es
+</text>
+<rect x="4181" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4188" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Pour 
+</text>
+<rect x="56" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="63" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Si el
+</text>
+<rect x="2311" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2318" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Nous 
+</text>
+<rect x="1321" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1328" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Par «
+</text>
+<rect x="1211" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1218" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  L’épa
+</text>
+<rect x="4511" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4518" y="223" style="font-family:sans-serif;font-size:12px;">
+[quote]  « Par
+</text>
+<rect x="991" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="998" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Cette
+</text>
+<rect x="8141" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8148" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Sauss
+</text>
+<rect x="7261" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7268" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Kant,
+</text>
+<rect x="3961" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3968" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Dès l
+</text>
+<rect x="1541" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1548" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  L’ado
+</text>
+<rect x="4841" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4848" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  S’agi
+</text>
+<rect x="7371" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7378" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Komat
+</text>
+<rect x="6271" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6278" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Bulea
+</text>
+<rect x="166" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="173" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Pour 
+</text>
+<rect x="7811" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7818" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Rasti
+</text>
+<rect x="688" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="695" y="83" style="font-family:sans-serif;font-size:12px;">
+[h1]  2 Rem
+</text>
+<rect x="881" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="888" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  A nou
+</text>
+<rect x="5061" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5068" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Accep
+</text>
+<rect x="771" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="778" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Alors
+</text>
+<rect x="7481" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7488" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Piage
+</text>
+<rect x="386" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="393" y="223" style="font-family:sans-serif;font-size:12px;">
+[item]  a Les
+</text>
+<rect x="1761" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1768" y="83" style="font-family:sans-serif;font-size:12px;">
+[h1]  3 Les
+</text>
+<rect x="8251" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8258" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Sauss
+</text>
+<rect x="9131" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="9138" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  3 Les
+</text>
+<rect x="6051" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6058" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Bronc
+</text>
+<rect x="6381" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6388" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Choms
+</text>
+<rect x="7591" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7598" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Piage
+</text>
+<rect x="7701" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7708" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Plato
+</text>
+<rect x="4951" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4958" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Une s
+</text>
+<rect x="716" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="723" y="223" style="font-family:sans-serif;font-size:12px;">
+[item]  d En 
+</text>
+<rect x="2531" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2538" y="153" style="font-family:sans-serif;font-size:12px;">
+[h2]  4.1 D
+</text>
+<rect x="4401" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4408" y="83" style="font-family:sans-serif;font-size:12px;">
+[h1]  5 Pou
+</text>
+<rect x="6711" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6718" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Dilth
+</text>
+<rect x="6161" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6168" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Bronc
+</text>
+<rect x="2091" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2098" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Le mo
+</text>
+<rect x="3136" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3143" y="293" style="font-family:sans-serif;font-size:12px;">
+[quote]  « Nou
+</text>
+<rect x="661" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="668" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Les p
+</text>
+<rect x="4731" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4738" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Comme
+</text>
+<rect x="3246" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3253" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Un pr
+</text>
+<rect x="4511" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4518" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Vygot
+</text>
+<rect x="7151" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7158" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Hause
+</text>
+<rect x="3851" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3858" y="153" style="font-family:sans-serif;font-size:12px;">
+[h2]  4.4 D
+</text>
+<rect x="7921" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7928" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Rasti
+</text>
+<rect x="5501" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5508" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Arist
+</text>
+<rect x="276" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="283" y="223" style="font-family:sans-serif;font-size:12px;">
+[quote]  « […]
+</text>
+<rect x="606" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="613" y="223" style="font-family:sans-serif;font-size:12px;">
+[item]  c En 
+</text>
+<rect x="8911" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8918" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  2 Il 
+</text>
+<rect x="3026" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3033" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Une t
+</text>
+<rect x="3576" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3583" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Comme
+</text>
+<rect x="2201" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2208" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Figur
+</text>
+<rect x="3246" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3253" y="153" style="font-family:sans-serif;font-size:12px;">
+[h2]  4.2 D
+</text>
+<rect x="2806" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2813" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  b La 
+</text>
+<rect x="4071" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4078" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Le pr
+</text>
+<rect x="5116" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5123" y="83" style="font-family:sans-serif;font-size:12px;">
+[h1]  6 Con
+</text>
+<rect x="5391" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5398" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Adam,
+</text>
+<rect x="3796" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3803" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Si el
+</text>
+<rect x="5721" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5728" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Bota,
+</text>
+<rect x="2036" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2043" y="293" style="font-family:sans-serif;font-size:12px;">
+[quote]  « Tou
+</text>
+<rect x="2476" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2483" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  “degr
+</text>
+<rect x="2256" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2263" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Mais 
+</text>
+<rect x="1871" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1878" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Et ce
+</text>
+<rect x="8361" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8368" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Spino
+</text>
+<rect x="4621" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4628" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  C’est
+</text>
+<rect x="3658" y="1" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3665" y="13" style="font-family:sans-serif;font-size:12px;">
+sample_spatial.xml
+</text>
+<rect x="6601" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6608" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  De Ma
+</text>
+<rect x="7041" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7048" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Haber
+</text>
+<rect x="2916" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2923" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  c La 
+</text>
+<rect x="5831" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5838" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Brand
+</text>
+<rect x="4291" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4298" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Sauss
+</text>
+<rect x="4401" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="4408" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Piage
+</text>
+<rect x="1" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8" y="83" style="font-family:sans-serif;font-size:12px;">
+[titleDocument]  Une s
+</text>
+<rect x="2421" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2428" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Dans 
+</text>
+<rect x="8581" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8588" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Vygot
+</text>
+<rect x="2036" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2043" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Si le
+</text>
+<rect x="7316" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="7323" y="83" style="font-family:sans-serif;font-size:12px;">
+[h1]  Référ
+</text>
+<rect x="8691" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8698" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  1 Cho
+</text>
+<rect x="3136" y="71" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3143" y="83" style="font-family:sans-serif;font-size:12px;">
+[h1]  4 Que
+</text>
+<rect x="8471" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8478" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Volos
+</text>
+<rect x="6931" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6938" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Genet
+</text>
+<rect x="5611" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5618" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Benve
+</text>
+<rect x="1101" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1108" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Formu
+</text>
+<rect x="9021" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="9028" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  rédig
+</text>
+<rect x="9241" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="9248" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  allég
+</text>
+<rect x="6821" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="6828" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Durkh
+</text>
+<rect x="3466" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3473" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Volos
+</text>
+<rect x="1761" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1768" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Comme
+</text>
+<rect x="3686" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3693" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Cette
+</text>
+<rect x="3356" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="3363" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Les p
+</text>
+<rect x="5281" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5288" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Recon
+</text>
+<rect x="496" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="503" y="223" style="font-family:sans-serif;font-size:12px;">
+[item]  b Ces
+</text>
+<rect x="8031" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="8038" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Sapir
+</text>
+<rect x="1761" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1768" y="223" style="font-family:sans-serif;font-size:12px;">
+[quote]  « Les
+</text>
+<rect x="2586" y="211" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2593" y="223" style="font-family:sans-serif;font-size:12px;">
+[p]  Pour 
+</text>
+<rect x="551" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="558" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Ce ty
+</text>
+<rect x="1431" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1438" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Nous 
+</text>
+<rect x="5941" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="5948" y="153" style="font-family:sans-serif;font-size:12px;">
+[item]  Bronc
+</text>
+<rect x="1981" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="1988" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  Piage
+</text>
+<rect x="2256" y="281" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="2263" y="293" style="font-family:sans-serif;font-size:12px;">
+[quote]  « Tou
+</text>
+<rect x="276" y="141" width="98" height="18" style="fill:orange; stroke:rgb(0,0,0);" rx="10"/>
+<text x="283" y="153" style="font-family:sans-serif;font-size:12px;">
+[p]  “A to
+</text>
+</svg>
+

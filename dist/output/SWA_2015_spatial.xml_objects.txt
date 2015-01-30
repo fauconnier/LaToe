@@ -1,0 +1,155 @@
+SE :	#Primer# = [Enumerating consists in stating the successive equally im- portant elements of a same conceptual domain, these el- ements being hierarchically linked to a classifying concept. This cognitive act is textually realized through a textual ob- ject called enumerative structure ES . As mentioned above, the ES is composed of a primer, of an enumeration intro- duced by the primer and composed of a list of items at least two , and eventually of a conclusion which sums up the various statements given through the items. An ordered relation may exist between items. Hovy and Arens [13] dif- ferentiate the “itematized” list an unordered set from the enumerated list items are “ordered along some underlying dimension, such as time, distance, importance” . This hierarchical structure is expressed with the help of markers whose role is to segment the text each segment corresponding to a component of the ES , and thus to in- troduce hierarchical levels between these components. An ES may combine several of these markers, either lexical or typo-dispositional, and thus can take several forms. As a consequence, the semantic relation born by an ES can be expressed by a variety of markers of different types. 	]
+	Item 1 = [The discourse analysis of the ES, according to the Rhetor- ical Structure Theory RST [19] shows a multi-nuclear rela- tion between items and a nuclear-satellite relation between the primer and the enumeration1. The Fig. 1 describes a rhetorical representation of the ES and its corresponding conceptual representation. This analysis confirms that ES 
+	]
+	Item 2 = [1The theory describes relations between spans of text rather than between the meanings of these texts [22]. 
+	]
+SE :	#Primer# = [In a guideline we specified a typology of relations borne by ES. Given our interest in taxonomy learning, we dis- tinguished among the taxonomic relations the isA relations from instanceOf ones as they are used in the ontological do- main . Thus, we defined six classes isA, instanceOf, partOf, otherOntological which gathers non hierarchical relations such as causality, possession, qualities or properties , met- aLinguistic which gathers synonymy, antonomy, etc. rela- tions , and other when the relation cannot be identified . 	]
+	Item 1 = [The annotation task has consisted to assign one of these classes to each ES. This task has been performed by three an- 
+	]
+	Item 2 = [notators two students in linguistics, and an expert in knowl- edge engineering with the annotation tool LARAt Layout Annotation for Relations Acquisition tool 3. The degree of inter-annotator agreement has been evaluated by the sta- tistical index κ [10]. The values per class are reported in table 1 with their z-scores and distributions. We obtained a κ of 0.49 for the whole corpus. This score, considered as correct according to the scale of Landis and Koch [17], reflects the complexity of the annotation task. When the classes isA and instanceOf are merged into a sin- gle taxonomic class, we obtain a κ of 0.54. The adjudication has been based on the majority vote. When the majority failed, the knowledge engineer acted as mediator. 
+	]
+	Item 3 = [Table 1 Inter-annotator agreements and distribu- tion by classes of relations Classes κ z-score obs. coverage isA 0.45 18.27 268 36.0% instanceOf 0.43 17.40 196 26.3% partOf 0.48 19.53 39 5.2% otherOntological 0.28 11.39 42 5.7% metaLinguistic 0.74 30.40 149 20.0% other 0.23 09.50 51 6.8% Corpus 0.49 36.20 745 100% 
+	]
+	Item 4 = [This corpus has been pre-processed for the learning tasks. Morphological and syntactic information have been added using the dependency parser Talismane [27]. From this dataset, 599 ES ∼80% were randomly chosen to constitute the de- velopment set dev set , and the remaining 146 ES ∼20% were used for the test set test set . In order to avoid a bias during the evaluation on the test set, these two sets were stratified according to the initial distribution of classes. The whole dataset is available4 and can be used under the terms of the Creative Commons license5. 
+	]
+SE :	#Primer# = [The features are binary functions that compose the vector x of each ES 5 . Those functions return 1 if a property is verified or 0 otherwise. Given the linguistic nature of the analysis, features evaluate linguistic properties of the words and phrases that form each ES. Because ESs give equal importance to each enumerated element, features are calculated on the primer and the first item only. 	]
+	Item 1 = [6http opennlp.apache.org 7http www.csie.ntu.edu.tw ~cjlin libsvm 
+	]
+	Item 2 = [The selection of features follows an iterative three steps procedure. Firstly a pattern feature is implemented. Sec- ondly the relevance of its instances is evaluated with a Pear- son’s correlation for the two target classes ontological and taxonomic . Finally, the instances with a good correlation are empirically validated on the dev set. We present here the first two steps. The validation on the dev set is presented in Section 6 with the evaluation on the test set. 
+	]
+	Item 3 = [The patterns which have been applied to the primers are 
+	]
+	Item 4 = [• f1 x,y,postag [contains primer,postag ] • f2 x,y,postag [ends primer,postag ] • f3 x,y [contains primer,w ∧ isPlural w ] • f4 x,y,A [contains primer,w ∧ isMarker w,A ] • f5 x,y [ends primer,w ∧ isComa w ] • f6 x,y [numberSentences primer v ∧ v 1] • f7 x,y,n [numberTokens primer v ∧ v n] • f8 x,y [ends primer,postag ∧ is postag,V ∨ is postag,ADV ∨ is postag,CS ∨ is postag,PREP ∨ is postag,PRO ] 
+	]
+	Item 5 = [The patterns which have been applied to the iems are 
+	]
+	Item 6 = [• f9 x,y,postag [contains item,postag ] • f10 x,y,postag [begins item,postag ] • f11 x,y [numberSentences item v ∧ v 1] • f12 x,y,n [numberTokens item v ∧ v n] • f13 x,y,w [begins Item,w ] 
+	]
+	Item 7 = [The feature f4 x,y,A verifies if a word or sequence of words w belongs to the alphabet A. The feature f8x,y indicates that items are the complements of a previously in- troduced verb. 
+	]
+	Item 8 = [The Pearson’s correlation r is calculated as below 
+	]
+	Item 9 = [cov f, y 
+	]
+	Item 10 = [rf 6 σ f σ y 
+	]
+	Item 11 = [where f ∈ Rn is a binary vector where each dimension i is the feature f applied to an ES of the dev set. The vector y ∈ Rn is a binary vector which represents all the labels. The combination of all of the features improves the predic- tion, but some of them give more information for the classifi- cation. The following table Table 2 describes the ten more discriminant features for the ontological class. Most of them are related to the primer, fact which denotes the presence of discriminating markers to identify the ontological class from the non one metaLinguistic and other . 
+	]
+	Item 12 = [Table 2 ontological class the 10 relevant features 
+	]
+	Item 13 = [Pattern Instance of feature Segment r corr. f7 numberToken 1 Primer -0.236 f9 postag V Item -0.219 f3 w is plural Primer 0.210 f9 postag PREP Item 0.210 f1 postag V Primer 0.195 f1 postag NPP Primer 0.176 f4 markers of components Primer 0.151 f8 ES with a syntactic hole Primer 0.141 f4 linguistic markers Primer -0.126 f12 numberToken 3 Item 0.099 
+	]
+	Item 14 = [The table 3 presents the most discriminant features to identify the taxonomic class. Conversely, we notice here that 
+	]
+SE :	#Primer# = [most of these features are related to the items, as primers does not contain specific markers for the taxonomic relation. 	]
+	Item 1 = [Table 3 taxonomic class the 10 relevant features 
+	]
+	Item 2 = [Pattern Instance of feature Segment r corr. f9 postag V Item -0.259 f13 w ”de” Item 0.235 f12 numberToken 5 Item 0.147 f9 postag NPP Item 0.132 f10 postag N Item 0.128 f3 w is plural Primer 0.120 f1 postag NPP Primer 0.120 f10 postag VINF Item -0.113 f4 linguistic markers Primer -0.112 f12 numberToken 3 Item 0.107 
+	]
+	Item 3 = [The feature predictOnto, resulting from the T Onto task and used in T Taxo 2, has the form 
+	]
+	Item 4 = [f14 x,y [isPredictedAs x,ontological ] 
+	]
+SE :	#Primer# = [For respectively the MaxEnt and the SVM, the rf14 has for value 0.361 and 0.321. Those are the higher values among all the features. 	]
+	Item 1 = [Table 4 Evaluation for the ontological class 
+	]
+	Item 2 = [dev set Prec. Rec. F1 Acc. MaxEnt 82.77 89.95 86.21 78.96 
+	]
+	Item 3 = [SVM 80.42 95.66 87.38 79.80 
+	]
+	Item 4 = [baseline 73.12 100.0 84.47 73.12 test set Prec. Rec. F1 Acc. MaxEnt 80.65 93.46 86.58 78.77 
+	]
+	Item 5 = [SVM 79.84 96.26 87.29 79.45 
+	]
+	Item 6 = [baseline 73.28 100.0 84.58 73.28 
+	]
+	Item 7 = [The table 5 presents the results for T Taxo 1 and T Taxo 2 tasks the models names for the T Taxo 2 task end with a “+” . The baseline shows a good precision thanks to the distribution 62.03% vs. 37.97% . In both task, the SVM+ show the best F1 for the taxonomic class. 
+	]
+	Item 8 = [dev set Prec. Rec. F1 Acc. MaxEnt 70.89 81.18 75.69 67.61 
+	]
+	Item 9 = [SVM 72.53 88.71 79.81 72.12 
+	]
+	Item 10 = [MaxEnt+ 73.03 82.26 77.37 70.12 
+	]
+	Item 11 = [SVM+ 73.57 89.78 80.87 73.62 
+	]
+	Item 12 = [baseline 62.10 100.0 76.62 62.10 test set Prec. Rec. F1 Acc. MaxEnt 70.59 78.26 74.23 65.75 
+	]
+	Item 13 = [SVM 71.05 88.04 78.64 69.86 
+	]
+	Item 14 = [MaxEnt+ 78.00 84.78 81.25 75.34 
+	]
+	Item 15 = [SVM+ 74.77 90.22 81.77 74.66 
+	]
+	Item 16 = [baseline 63.01 100.0 77.31 63.01 
+	]
+	Item 17 = [Table 6 Comparison for the taxonomic class 
+	]
+	Item 18 = [dev set ΔF1 ΔAcc. p-value MaxEnt+ vs. MaxEnt 1.68 2.50 *0.054 MaxEnt+ vs. baseline 0.75 8.01 0.01 SVM+ vs. SVM 1.07 1.50 **0.21 SVM+ vs. baseline 4.25 11.52 0.01 test set ΔF1 ΔAcc. p-value MaxEnt+ vs MaxEnt 7.02 9.59 0.01 MaxEnt+ vs baseline 3.94 12.33 0.01 SVM+ vs SVM 3.13 4.79 0.02 SVM+ vs baseline 4.46 11.64 0.01 
+	]
+	Item 19 = [The table 6 compares the two tasks. For the dev set, the difference between the two tasks for the same model doesn’t exhibit significant p-values see * and ** , especially for the SVM which seems to be able to learn easily without any additional information. On the test set, the feature predic- tOnto shows significant improvements, though with a lesser gain for the SVM. 
+	]
+	Item 20 = [The accuracy and F1 resulting from our linear and non- linear classifiers show a pretty good stability. That suggests a good trade off between the variance and the bias of our features, whichever the chosen algorithm is. The SVM shows a low precision, but a better recall, while inverse results appear for the MaxEnt. Thus we intend to further combine both models using approaches such as bagging or boosting. 
+	]
+SE :	#Primer# = [ES, the ontological relations including the meronymic rela- tions and the non-hierarchical ones from the lexical rela- tions including synonymy, antonymy, etc. . These more precise relations could then be involved both in terminology or ontology building processes. 	]
+	Item 1 = [Proceedings of the fifth annual workshop on Computational learning theory, pages 144–152. ACM, 
+	]
+	Item 2 = [1992. [5] S. Cederberg and D. Widdows. Using lsa and noun coordination information to improve the precision and recall of automatic hyponymy extraction. In 
+	]
+	Item 3 = [Proceedings of the seventh conference on Natural language learning at HLT-NAACL 2003-Volume 4, 
+	]
+	Item 4 = [pages 111–118. Association for Computational Linguistics, 2003. [6] S. Chernov, T. Iofciu, W. Nejdl, and X. Zhou. Extracting semantics relationships between wikipedia categories. SemWiki, 206, 2006. [7] P. Cimiano, S. Handschuh, and S. Staab. Towards the 
+	]
+	Item 5 = [self-annotating web. In Proceedings of the 13th international conference on World Wide Web, pages 
+	]
+	Item 6 = [462–471. ACM, 2004. 
+	]
+	Item 7 = [[8] P. Cimiano, A. Hotho, and S. Staab. Learning concept hierarchies from text corpora using formal concept 
+	]
+	Item 8 = [analysis. J. Artif. Intell. Res. JAIR , 24 305–339, 
+	]
+	Item 9 = [2005. [9] D. Faure and C. N´edellec. A corpus-based conceptual clustering method for verb frames and ontology 
+	]
+	Item 10 = [acquisition. In LREC workshop on adapting lexical and corpus resources to sublanguages and applications, 
+	]
+SE :	#Primer# = [2006. [13] E. H. Hovy and Y. Arens. Automatic generation of 	]
+	Item 1 = [[16] M. Kamel, B. Rothenburger, and J.-P. Fauconnier. Identification de relations s´emantiques port´ees par les structures ´enum´eratives paradigmatiques. Revue 
+	]
+	Item 2 = [d’Intelligence Artificielle, Ing´enierie des 
+	]
+	Item 3 = [Connaissances, 2014. [17] J. R. Landis and G. G. Koch. The measurement of observer agreement for categorical data. biometrics, pages 159–174, 1977. [18] A. Lenci and G. Benotto. Identifying hypernyms in distributional semantic spaces. In Proceedings of the 
+	]
+	Item 4 = [First Joint Conference on Lexical and Computational Semantics-Volume 1 Proceedings of the main conference and the shared task, and Volume 2 Proceedings of the Sixth International Workshop on 
+	]
+	Item 5 = [Semantic Evaluation, pages 75–79. Association for Computational Linguistics, 2012. [19] W. Mann and S. Thompson. Rhetorical structure theory Toward a functional theory of text organization. Text, 8 3 243–281, 1988. [20] O. Medelyan, D. Milne, C. Legg, and I.-H. Witten. Mining meaning from wikipedia. International Journal of Human-Computer Studies, 67 9 716–754, 2009. [21] M. J. O’Connor and A. Das. Acquiring owl ontologies 
+	]
+	Item 6 = [from xml documents. In Proceedings of the sixth international conference on Knowledge capture, pages 
+	]
+	Item 7 = [17–24. ACM, 2011. 
+	]
+	Item 8 = [[22] R. Power, D. Scott, and N. Bouayad-Agha. Document structure. Computational Linguistics, 29 2 211–260, 2003. [23] D. Sanchez and A. Moreno. Web-scale taxonomy 
+	]
+	Item 9 = [learning. In Proceedings of Workshop on Extending and Learning Lexical Ontologies using Machine 
+	]
+	Item 10 = [Learning ICML 2005 , pages 53–60, Bonn, Germany, 2005. [24] R. Snow, D. Jurafsky, and A. Y. Ng. Learning syntactic patterns for automatic hypernym discovery. 
+	]
+	Item 11 = [Advances in Neural Information Processing Systems 17, 2004. 
+	]
+	Item 12 = [[25] F. M. Suchanek, G. Kasneci, and G. Weikum. Yago a core of semantic knowledge. In Proceedings of the 16th 
+	]
+	Item 13 = [international conference on World Wide Web, pages 
+	]
+	Item 14 = [697–706. ACM, 2007. 
+	]
+	Item 15 = [[26] A. Sumida and K. Torisawa. Hacking wikipedia for hyponymy relation acquisition. In IJCNLP, volume 8, pages 883–888. Citeseer, 2008. [27] A. Urieli and L. Tanguy. L’apport du faisceau dans l’analyse syntaxique en d´ependances par transitions ´etudes de cas avec l’analyseur Talismane. In Actes de 
+	]
+	Item 16 = [la 20e conf´erence sur le Traitement Automatique des 
+	]
+	Item 17 = [Langues Naturelles TALN’2013 , pages 188–201, Les Sables d’Olonne, France, 2013. [28] J. V¨ olker, D. Vrandeˇci´c, Y. Sure, and A. Hotho. 
+	]
+	Item 18 = [Learning disjointness. In The Semantic Web Research 
+	]
+	Item 19 = [and Applications, pages 175–189. Springer, 2007. 
+	]
+	Item 20 = [Conference AAAI 1991 , Anaheim, CA, 1991. 
+	]

@@ -44,7 +44,7 @@ public class Token implements Serializable {
 
 	public Token(String[] line) {
 
-		if(line.length == 10){
+		if(line.length == 10){ //parsing
 			this.id_token = Integer.parseInt(line[0]);
 			this.form = line[1];
 			this.lemma = line[2];
@@ -55,7 +55,30 @@ public class Token implements Serializable {
 			this.deprel = line[7];
 			this.phead = Integer.parseInt(line[8]);
 			this.pdeprel = line[9];
-		}else{
+		}else if(line.length == 6){// only postaging
+			this.id_token = Integer.parseInt(line[0]);
+			this.form = line[1];
+			this.lemma = line[2];
+			this.cppostag = line[3];
+			this.postag = line[4];
+			this.feats = line[5];
+			this.head = -1;
+			this.deprel = "_";
+			this.phead = -1;
+			this.pdeprel = "_";
+		}else if(line.length == 5){// only postaging
+			this.id_token = Integer.parseInt(line[0]);
+			this.form = line[1];
+			this.lemma = line[2];
+			this.cppostag = line[3];
+			this.postag = line[4];
+			this.feats = "";
+			this.head = -1;
+			this.deprel = "_";
+			this.phead = -1;
+			this.pdeprel = "_";
+		}
+		else{
 			System.err.println("Invalid args for CoNNL_Token");
 		}
 	}
