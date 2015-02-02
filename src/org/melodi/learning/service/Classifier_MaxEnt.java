@@ -48,7 +48,8 @@ public class Classifier_MaxEnt {
 	
 	public AbstractModel train(FeatureGenerator_Service featureGen, int iteration, int  cutoff, boolean USE_SMOOTHING) throws IOException {
 
-		// TODO : c'est crade de passer par un fichier texte.
+		// TODO : Utilisable mais améliorable sans passer par écriture/lecture!
+		// TODO : Ecrire un vrai wrapper.
 		featureGen.writeMaxEnt("dataset_train.txt");
 		FileReader datafr = new FileReader(new File("dataset_train.txt"));
 		

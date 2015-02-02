@@ -4,9 +4,12 @@
  * and open the template in the editor.
  */
 
-package org.melodi.objectslogic;
+package logicalobjects;
 
-
+/**
+*
+* @author LaurentS
+*/
 public class Word_Lara {
     public String font, style;
     public String mot;

@@ -9,15 +9,16 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
+import logicalobjects.Chunk_Lara;
+import logicalobjects.Document_Lara;
+
 import org.latoe.layoutanalysis.pdf.labelisation.Service_CRF;
 import org.latoe.layoutanalysis.pdf.pdfobject.Chunk_PDF;
 import org.latoe.layoutanalysis.pdf.pdfobject.Corpus_PDF;
 import org.latoe.layoutanalysis.pdf.pdfobject.Document_PDF;
 import org.latoe.layoutanalysis.pdf.pdfobject.Page_PDF;
 import org.latoe.layoutanalysis.pdf.pdfobject.Word_PDF;
-import org.melodi.objectslogic.Chunk_Lara;
-import org.melodi.objectslogic.Document_Lara;
-import org.melodi.reader.service.Reader_Service;
+import org.melodi.reader.service.Writer_Service;
 import org.melodi.tools.tree.ShiftReduce_Service;
 
 import edu.isi.bmkeg.lapdf.bin.Blockify;
@@ -33,40 +34,49 @@ public class PDF_Service {
 
 	}
 
+	/**
+	 * Transforme un document PDF en le blockifiant, en étiquetant les blocks 
+	 * avec un modèle statistique et en appliquant un parsing shift-reduce.
+	 * Retourn un Document Lara
+	 * @param path
+	 * @param path_model
+	 * @param path_rules
+	 * @param onlyRules
+	 * @return
+	 * @throws Exception
+	 */
 	public Document_Lara getDocument(String path, String path_model, String path_rules,
 			String onlyRules) throws Exception {
-
-		// 3 steps :
 
 		Document_Lara currDocument = new Document_Lara();
 
 		if (onlyRules.equals("TRUE")) {
-			
+			/*
+			 * 1. LaPDF Layout
+			 */
 			String[] args2 = new String[2];
 			args2[0] = path;
 			args2[1] = path_rules;
-//			blockifyClassify.main(args2);
-			
 			BlockifyClassify.main(args2);
+			
+			// TODO : à terminer
 			
 
 		} else {
 			/*
-			 * 1. LaPDF Layout
+			 * 1. LaPDF Layout : blockify
 			 */
 			String[] args2 = new String[1];
 			args2[0] = path;
 			Blockify.main(args2);
 
 			// TODO : use rules for header/footer/footnote/etc.
-			// BlockifyClassify.main()
-
 			path = path.replaceAll(".pdf", "_spatial.xml");
 			Corpus_PDF corpus = new Corpus_PDF();
 			corpus.loadCorpus(path);
 
 			/*
-			 * 2. Label
+			 * 2. Etiquetage des chunks
 			 */
 			Service_CRF crf_model;
 			System.out.println("Deserialize model from " + path_model);
@@ -96,7 +106,12 @@ public class PDF_Service {
 		return currDocument;
 	}
 
-	public static void blockifyPDF(String path) throws Exception {
+	/**
+	 * "Blockifie" un document PDF
+	 * @param path
+	 * @throws Exception
+	 */
+	public void blockifyPDF(String path) throws Exception {
 
 		String[] args2 = new String[1];
 		args2[0] = path;
@@ -109,7 +124,13 @@ public class PDF_Service {
 
 	}
 
-	public static void trainNewModel(String corpus_training,
+	/**
+	 * Entraîne un nouveau modèle pour la segmentation
+	 * @param corpus_training
+	 * @param output_model_path
+	 * @throws Exception
+	 */
+	public void trainNewModel(String corpus_training,
 			String output_model_path) throws Exception {
 
 		// load annotated data
@@ -130,7 +151,12 @@ public class PDF_Service {
 
 	}
 
-	public static Document_Lara transform(Document_PDF documentLayout) {
+	/**
+	 * Transforme un document PDF blockifié et étiqueté en un document Lara
+	 * @param documentLayout
+	 * @return
+	 */
+	public  Document_Lara transform(Document_PDF documentLayout) {
 
 		Document_Lara currDocument = new Document_Lara();
 

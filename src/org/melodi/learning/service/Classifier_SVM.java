@@ -25,6 +25,13 @@ import au.com.bytecode.opencsv.CSVReader;
 import opennlp.model.AbstractModel;
 
 
+/**
+ * A refaire! 
+ * Ne pas utiliser R en production.
+ * Facile pour expé, mais trop lent et sûrement non compatible avec Windows.
+ * @author jfaucon
+ *
+ */
 public class Classifier_SVM {
 	
 	String path_object_R = "";

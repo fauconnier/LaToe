@@ -24,7 +24,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import org.melodi.objectslogic.Document_Lara;
+import logicalobjects.Document_Lara;
+
 import org.melodi.reader.larat.internal.Items;
 import org.melodi.reader.larat.internal.Unit;
 import org.melodi.reader.larat.model.LaratModel;

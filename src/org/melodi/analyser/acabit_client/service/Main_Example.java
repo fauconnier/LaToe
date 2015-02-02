@@ -7,10 +7,11 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import logicalobjects.Term;
+
 import org.melodi.analyser.acabit_client.service.ACABITClient;
 import org.melodi.analyser.talismane_client.service.Structure;
 import org.melodi.analyser.talismane_client.service.TalismaneClient;
-import org.melodi.objectslogic.Term;
 
 public class Main_Example {
 

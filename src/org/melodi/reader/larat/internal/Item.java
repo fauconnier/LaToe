@@ -2,8 +2,9 @@ package org.melodi.reader.larat.internal;
 
 import java.util.ArrayList;
 
+import logicalobjects.Chunk_Lara;
+
 import org.melodi.analyser.talismane_client.service.Structure;
-import org.melodi.objectslogic.Chunk_Lara;
 
 
 public class Item extends ArrayList<String> implements java.io.Serializable, Graphical_Component, Comparable {

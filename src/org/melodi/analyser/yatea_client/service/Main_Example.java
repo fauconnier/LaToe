@@ -4,13 +4,18 @@ import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 
+import logicalobjects.Term;
+
 import org.jdom2.JDOMException;
 import org.melodi.analyser.talismane_client.service.Structure;
 import org.melodi.analyser.talismane_client.service.TalismaneClient;
 import org.melodi.analyser.yatea_client.service.YateaClient;
-import org.melodi.objectslogic.Term;
 
-
+/**
+ * Client pour YaTea
+ * @author jfaucon
+ *
+ */
 public class Main_Example {
 
 	public static void main(String[] args) throws UnknownHostException, IOException, InterruptedException, JDOMException, ClassNotFoundException {

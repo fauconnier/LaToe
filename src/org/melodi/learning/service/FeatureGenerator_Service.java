@@ -12,7 +12,12 @@ import org.melodi.reader.larat.internal.Unit;
 import org.melodi.tools.dataset.DataSet_Corpora;
 import org.melodi.tools.dataset.DataSet_Service;
 
-
+/**
+ * Classe pour manipulation des traits
+ * A refaire!
+ * @author jfaucon
+ *
+ */
 public class FeatureGenerator_Service extends ArrayList<PairUnit_Features>{
 	
 	

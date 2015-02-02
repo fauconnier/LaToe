@@ -4,7 +4,11 @@ import java.util.Vector;
 
 import org.melodi.reader.larat.internal.Unit;
 
-
+/**
+ * Paire entre une unité et un ensemble de traits
+ * @author jfaucon
+ *
+ */
 public class PairUnit_Features {
 	
 	Vector<String> features;

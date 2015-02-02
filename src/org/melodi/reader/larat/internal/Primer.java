@@ -2,8 +2,9 @@ package org.melodi.reader.larat.internal;
 
 import java.util.ArrayList;
 
+import logicalobjects.Chunk_Lara;
+
 import org.melodi.analyser.talismane_client.service.Structure;
-import org.melodi.objectslogic.Chunk_Lara;
 import org.melodi.reader.larat.internal.Concept;
 
 public class Primer extends ArrayList<String> implements java.io.Serializable, Graphical_Component{

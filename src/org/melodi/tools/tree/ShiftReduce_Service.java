@@ -3,9 +3,10 @@ package org.melodi.tools.tree;
 import java.util.List;
 import java.util.Stack;
 
+import logicalobjects.Chunk_Lara;
+import logicalobjects.Document_Lara;
+
 import org.apache.commons.lang3.StringUtils;
-import org.melodi.objectslogic.Chunk_Lara;
-import org.melodi.objectslogic.Document_Lara;
 
 
 

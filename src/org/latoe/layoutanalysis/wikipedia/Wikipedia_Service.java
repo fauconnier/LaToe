@@ -4,8 +4,9 @@ import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
-import org.melodi.objectslogic.Chunk_Lara;
-import org.melodi.objectslogic.Document_Lara;
+import logicalobjects.Chunk_Lara;
+import logicalobjects.Document_Lara;
+
 import org.melodi.tools.common.IO_Service;
 import org.melodi.tools.tree.ShiftReduce_Service;
 

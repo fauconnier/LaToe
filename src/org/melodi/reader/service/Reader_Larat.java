@@ -6,6 +6,13 @@ import org.melodi.reader.larat.controler.LaratControler;
 import org.melodi.reader.larat.model.LaratModel;
 import org.melodi.reader.larat.view.LaratView;
 
+
+/**
+ * Lecture avec Larat en Java
+ * A tester!
+ * @author jfaucon
+ *
+ */
 public class Reader_Larat {
 	String docname;
 	int index_doc;

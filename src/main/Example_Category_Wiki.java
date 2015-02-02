@@ -8,8 +8,9 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.TreeSet;
 
+import logicalobjects.Document_Lara;
+
 import org.latoe.layoutanalysis.wikipedia.Wikipedia_Service;
-import org.melodi.objectslogic.Document_Lara;
 
 import de.tudarmstadt.ukp.wikipedia.api.Category;
 import de.tudarmstadt.ukp.wikipedia.api.DatabaseConfiguration;
@@ -19,11 +20,14 @@ import de.tudarmstadt.ukp.wikipedia.api.WikiConstants.Language;
 import de.tudarmstadt.ukp.wikipedia.api.exception.WikiApiException;
 import de.tudarmstadt.ukp.wikipedia.api.exception.WikiPageNotFoundException;
 
-public class Main_Example_Cat {
+public class Example_Category_Wiki {
 
 	
 	public static void main(String[] args) throws WikiApiException, IOException, InterruptedException {
 		
+		/**
+		 * Classe d'exemple pour extraire des articles liés à un catégorie Wikipédia
+		 */
 		
         // configure the database connection parameters
         DatabaseConfiguration dbConfig = new DatabaseConfiguration();
@@ -57,9 +61,6 @@ public class Main_Example_Cat {
         		vin_category_articles.add(p.getTitle().getPlainTitle());
         		already_seen.add(p.getTitle().getPlainTitle());
         	}
-        	else{
-        		System.out.println("Déjà vu");
-        	}
         }
         
         // Get the pages categorized under each subcategory of "Towns in Germany".
@@ -70,9 +71,6 @@ public class Main_Example_Cat {
             		System.out.println("Add + " + p.getTitle().getPlainTitle());
                     vin_category_articles.add(p.getTitle().getPlainTitle());
                 	already_seen.add(p.getTitle().getPlainTitle());
-            	}
-            	else{
-            		System.out.println("Déjà vu");
             	}
             }
         }

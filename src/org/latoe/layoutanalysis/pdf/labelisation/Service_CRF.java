@@ -28,6 +28,11 @@ import org.melodi.learning.iitb.Segment.TrainData;
 import org.melodi.learning.iitb.Utils.Options;
 
 public class Service_CRF implements java.io.Serializable{
+	
+	/**
+	 * Classe TALN 2014:
+	 * TODO : A refactoriser!
+	 */
 
 	/*
 	 * Debug Mode
@@ -36,13 +41,6 @@ public class Service_CRF implements java.io.Serializable{
 	boolean confusionMatrix = false;
 	boolean oneToOne=false;
     boolean verbose = true;
-
-	/*
-	 * Data docList = liste de document issue d'un Corpus DocumentDataIter =
-	 * iterateur sur un Corpus
-	 */
-	// List<Document> docList;
-	// DocumentDataIter myIter;
 
 	/*
 	 * Params nlabels = nb de labels modelGraphType = type de modèle de
@@ -57,14 +55,12 @@ public class Service_CRF implements java.io.Serializable{
 	/*
 	 * Labels
 	 */
-	// LabelMap labelMap;
-	// String mapTagString = null;
 	public HashMap<String, Integer> labelMapInt;
 	public HashMap<Integer, String> intMapLabel;
 	public HashMap<String,String> labelsToMerge;
 
 	/*
-	 * Model & Features crfModel = modèle CRF featureGen = featureGenerator Impl
+	 * Model & Features 
 	 */
 	
 	CRF crfModel;

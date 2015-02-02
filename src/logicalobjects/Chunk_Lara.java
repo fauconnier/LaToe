@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package org.melodi.objectslogic;
+package logicalobjects;
 
 
 
@@ -18,6 +18,11 @@ import java.util.regex.Pattern;
 import org.latoe.layoutanalysis.pdf.labelisation.ValueComparatorStringInt;
 import org.melodi.analyser.talismane_client.service.Structure;
 
+
+/**
+*
+* @author LaurentS
+*/
 
 public class Chunk_Lara  implements java.io.Serializable{
 	

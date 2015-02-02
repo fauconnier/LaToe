@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package org.melodi.objectslogic;
+package logicalobjects;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamAsAttribute;

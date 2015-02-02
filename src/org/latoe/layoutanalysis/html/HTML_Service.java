@@ -10,6 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
+import logicalobjects.Chunk_Lara;
+import logicalobjects.Document_Lara;
+
 import org.htmlcleaner.AttributeTransformationPatternImpl;
 import org.htmlcleaner.CleanerProperties;
 import org.htmlcleaner.CleanerTransformations;
@@ -24,8 +27,6 @@ import org.jsoup.nodes.Node;
 import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
 import org.jsoup.select.NodeVisitor;
-import org.melodi.objectslogic.Chunk_Lara;
-import org.melodi.objectslogic.Document_Lara;
 import org.melodi.tools.tree.ShiftReduce_Service;
 import org.mozilla.universalchardet.UniversalDetector;
 

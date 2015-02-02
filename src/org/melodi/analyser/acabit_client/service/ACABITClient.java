@@ -16,6 +16,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import logicalobjects.Term;
+
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
@@ -23,11 +25,14 @@ import org.jdom2.input.SAXBuilder;
 import org.melodi.analyser.talismane_client.service.Sentence;
 import org.melodi.analyser.talismane_client.service.Structure;
 import org.melodi.analyser.talismane_client.service.Token;
-import org.melodi.objectslogic.Term;
 import org.melodi.tools.fuzzymatcher.client.FuzzyMatcher_Client;
 import org.melodi.tools.fuzzymatcher.datamodel.Message_Matcher;
 
-
+/**
+ * Client pour ACABIT
+ * @author jfaucon
+ *
+ */
 public class ACABITClient {
 	
 	boolean test = false;

@@ -1,4 +1,11 @@
-package org.melodi.objectslogic;
+package logicalobjects;
+
+
+/**
+ * A remplacer par une enumeration
+ * @author jfaucon
+ *
+ */
 
 public class LayoutAnnotation  implements java.io.Serializable{
 	

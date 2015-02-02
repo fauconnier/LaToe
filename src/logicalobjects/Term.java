@@ -1,10 +1,13 @@
-package org.melodi.objectslogic;
+package logicalobjects;
 
 import java.util.ArrayList;
 
 import org.melodi.analyser.talismane_client.service.Token;
 
-
+/**
+*
+* @author LaurentS
+*/
 public class Term implements java.io.Serializable{
 	
 	private int start;

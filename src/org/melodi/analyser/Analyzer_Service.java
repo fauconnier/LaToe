@@ -4,14 +4,15 @@ import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 
+import logicalobjects.Chunk_Lara;
+import logicalobjects.Document_Lara;
+import logicalobjects.Term;
+
 import org.latoe.textobject.TextPattern_Detection;
 import org.melodi.analyser.acabit_client.service.ACABITClient;
 import org.melodi.analyser.talismane_client.service.Structure;
 import org.melodi.analyser.talismane_client.service.TalismaneClient;
 import org.melodi.analyser.yatea_client.service.YateaClient;
-import org.melodi.objectslogic.Chunk_Lara;
-import org.melodi.objectslogic.Document_Lara;
-import org.melodi.objectslogic.Term;
 import org.melodi.reader.larat.internal.Item;
 import org.melodi.reader.larat.internal.Unit;
 

@@ -1,4 +1,4 @@
-package org.melodi.objectslogic;
+package logicalobjects;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -12,7 +12,10 @@ import org.jdom.input.SAXBuilder;
 
 import com.thoughtworks.xstream.XStream;
 
-
+/**
+*
+* @author LaurentS
+*/
 
 public class Corpus_Lara  implements java.io.Serializable {
 	String trainingDir;

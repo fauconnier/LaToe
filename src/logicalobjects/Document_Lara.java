@@ -1,4 +1,4 @@
-package org.melodi.objectslogic;
+package logicalobjects;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
@@ -19,13 +19,18 @@ import org.melodi.tools.tree.ShiftReduce_Service;
 
 
 
-/*
- * Représentation de tous les chunks du document
+/**
+ * A refactoriser! 
+ * A faire:
+ * - gestion d'exceptions
+ * - tests unitaires
+ * - réécrire bouts de code
+ * - etc.
+ * @author jfaucon
+ *
  */
-
-
-
 public class Document_Lara  implements java.io.Serializable{
+	
 	
 	public List<Chunk_Lara> chunks;
 	
@@ -113,14 +118,6 @@ public class Document_Lara  implements java.io.Serializable{
     }
     
     
-    
-    
-    /*
-     * Représentation HTML pour LARAt
-     */
-    
-
-    
     public ArrayList<Unit> getList_of_units() {
 		return list_of_units;
 	}
@@ -133,9 +130,8 @@ public class Document_Lara  implements java.io.Serializable{
 	public void addUnits(Unit currUnit){
 		this.list_of_units.add(currUnit);
 	}
-	/*
-     * Document Tree
-     */
+
+	
     public boolean hasDependence(Chunk_Lara currChunk){
     	int id = currChunk.getId();
     	
@@ -155,8 +151,6 @@ public class Document_Lara  implements java.io.Serializable{
     	int id = currChunk.getId();
     	Chunk_Lara returnChunk = new Chunk_Lara(0, 0, 0, 0);
     	returnChunk.setType("nothing");
-    	
-//    	System.out.println("Recherche du dépendant pour " + currChunk.toString());
     	
      	for(Chunk_Lara tmpChunk : this.getChunk()){
     		if(tmpChunk.getDepId() == id && tmpChunk.getId() != id){ 
@@ -302,6 +296,9 @@ public class Document_Lara  implements java.io.Serializable{
     }
 	
 	
+	/**
+	 * Update des indices start & end chunks.
+	 */
 	public void processLayoutAnnotation(){
 
 			index_char = 0;
@@ -336,10 +333,10 @@ public class Document_Lara  implements java.io.Serializable{
 			for (Chunk_Lara currChunk : this.getChunk()) {
 				
 				if(currChunk.getLayoutAnnotation().getBegin() > index_char){
-					System.err.println("Erreur ici");
+					System.err.println("Erreur");
 				}
 				if(currChunk.getLayoutAnnotation().getEnd() > index_char){
-					System.err.println("Erreur ici");
+					System.err.println("Erreur");
 				}
 			}
 			
@@ -360,8 +357,6 @@ public class Document_Lara  implements java.io.Serializable{
 			
 		}
 		
-		
-		
 		return overlapped_chunk;
 	}
 	
@@ -375,9 +370,6 @@ public class Document_Lara  implements java.io.Serializable{
 			plainText += chunkText + " ";
 		}
 		
-//		plainText = plainText.toLowerCase();
-//		plainText = plainText.replaceAll("[^a-zA-Z0-9áàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\\s']", "").replaceAll("\\s+", " ");
-	
 		if(talismane){
 		TalismaneClient talismane_client = new TalismaneClient();
 		Structure currStructure = talismane_client.analyse(plainText,false);
@@ -395,6 +387,7 @@ public class Document_Lara  implements java.io.Serializable{
 				}
 			}
 		}
+		// TODO : solution rapide. A remplacer!
 		newString = newString.toLowerCase();
 		newString = newString.replaceAll("[^a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\\s']", "").replaceAll("\\s+", " ");
 		plainText = newString;
@@ -445,10 +438,10 @@ public class Document_Lara  implements java.io.Serializable{
 			for (Chunk_Lara currChunk : this.getChunk()) {
 				
 				if(currChunk.getLayoutAnnotation().getBegin() > index_char){
-					System.err.println("Erreur ici");
+					System.err.println("Erreur");
 				}
 				if(currChunk.getLayoutAnnotation().getEnd() > index_char){
-					System.err.println("Erreur ici");
+					System.err.println("Erreur");
 				}
 			}
 			

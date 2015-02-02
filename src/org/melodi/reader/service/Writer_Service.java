@@ -21,6 +21,11 @@ import javax.swing.BorderFactory;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
 
+import logicalobjects.Chunk_Lara;
+import logicalobjects.Document_Lara;
+import logicalobjects.LayoutAnnotation;
+import logicalobjects.Term;
+
 import org.abego.treelayout.TreeForTreeLayout;
 import org.abego.treelayout.TreeLayout;
 import org.abego.treelayout.demo.SampleTreeFactory;
@@ -36,10 +41,6 @@ import org.jdom2.Element;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 import org.melodi.analyser.yatea_client.service.YateaClient;
-import org.melodi.objectslogic.Chunk_Lara;
-import org.melodi.objectslogic.Document_Lara;
-import org.melodi.objectslogic.LayoutAnnotation;
-import org.melodi.objectslogic.Term;
 import org.melodi.reader.larat.internal.Concept;
 import org.melodi.reader.larat.internal.Item;
 import org.melodi.reader.larat.internal.Primer;
@@ -51,12 +52,20 @@ import org.melodi.tools.fuzzymatcher.client.FuzzyMatcher_Client;
 import org.melodi.tools.fuzzymatcher.datamodel.Message_Matcher;
 
 
-public class Reader_Service {
+/**
+ * Document_Lara vers autres formats.
+ * A refactoriser!
+ * - classe trop longue
+ * - problèmes avec Glozz : trop de relations et de termes ne sont pas représentables
+ * sous Glozz. Lenteur, etc.
+ * @author jfaucon
+ *
+ */
+public class Writer_Service {
 
 	Element racine;
 	org.jdom2.Document document;
 	int count_unit;
-//	int count_relation;
 	public int index_char;
 	ArrayList<Element> relations_for_end = new ArrayList<Element>();
 
@@ -68,7 +77,7 @@ public class Reader_Service {
 
 	private static boolean printFlag = false;
 
-	public Reader_Service() {
+	public Writer_Service() {
 
 	}
 

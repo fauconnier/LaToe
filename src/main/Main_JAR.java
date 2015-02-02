@@ -3,7 +3,7 @@ package main;
 import java.io.IOException;
 import java.net.UnknownHostException;
 
-import org.melodi.objectslogic.Document_Lara;
+import logicalobjects.Document_Lara;
 
 
 public class Main_JAR {

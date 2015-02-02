@@ -4,13 +4,22 @@ import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 
+import logicalobjects.Chunk_Lara;
+import logicalobjects.Term;
+
 import org.melodi.analyser.talismane_client.service.Sentence;
 import org.melodi.analyser.talismane_client.service.Structure;
 import org.melodi.analyser.talismane_client.service.Token;
-import org.melodi.objectslogic.Chunk_Lara;
-import org.melodi.objectslogic.Term;
 import org.melodi.tools.fuzzymatcher.client.FuzzyMatcher_Client;
 import org.melodi.tools.fuzzymatcher.datamodel.Message_Matcher;
+
+
+/**
+ * Attention : classe non fonctionnelle! A remplacer entièrement.
+ * Utiliser les patrons GATE ou un autre système générique.
+ * @author jfaucon
+ *
+ */
 
 public class TextPattern_Detection {
 	
@@ -46,9 +55,6 @@ public class TextPattern_Detection {
 					FuzzyMatcher_Client fuzzymatcher_client = new FuzzyMatcher_Client();
 					fuzzymatcher_client.setHost("localhost");
 					
-					
-					
-					// Oublie message matcher
 					
 					
 					 Message_Matcher msg_matcher 
@@ -87,21 +93,6 @@ public class TextPattern_Detection {
 				lemma += currToken.getLemma() + " ";
 				dep += currToken.getDeprel() + " ";
 			}
-			
-//			for(Token currToken2 : currSentence){
-//					int id_dep = currToken2.getId_token();
-//					if(currSentence.get(id_dep).getLemma().equals("être") ){
-//						
-//						String toReturn = "";
-//						for(Token currToken3 : currSentence){
-//							if(currToken3.getId_token() > id_dep){
-//								toReturn += currToken3.getForm() + " " ;
-//							}
-//						}
-//						System.out.println(currToken2.getForm() + " " + toReturn);
-//					}
-//				}
-//			}
 			
 			if(lemma.contains("tel que")){
 				System.out.println(currSentence.stringDump());

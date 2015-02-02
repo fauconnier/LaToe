@@ -6,23 +6,28 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
+import logicalobjects.Document_Lara;
+
 import org.apache.log4j.PropertyConfigurator;
 import org.latoe.layoutanalysis.html.HTML_Service;
 import org.latoe.layoutanalysis.pdf.PDF_Service;
 import org.latoe.layoutanalysis.wikipedia.Wikipedia_Service;
-import org.latoe.textobject.HierarchicalStructure_Detection;
-import org.melodi.objectslogic.Document_Lara;
+import org.latoe.textobject.ES_Detection;
 import org.melodi.reader.larat.controler.LaratControler;
 import org.melodi.reader.larat.internal.Unit;
 import org.melodi.reader.larat.model.LaratModel;
 import org.melodi.reader.larat.view.LaratView;
-import org.melodi.reader.service.Reader_Service;
+import org.melodi.reader.service.Writer_Service;
 
 import de.tudarmstadt.ukp.wikipedia.api.exception.WikiApiException;
 import de.tudarmstadt.ukp.wikipedia.api.exception.WikiInitializationException;
 import de.tudarmstadt.ukp.wikipedia.datamachine.domain.JWPLDataMachine;
 
 public class LATOE_client {
+	
+	/**
+	 * Classe Client pour LaToe
+	 */
 	
 	public LATOE_client(){
 		
@@ -118,7 +123,7 @@ public class LATOE_client {
 	public void extractTextObject(Document_Lara currDocument) throws FileNotFoundException {
 
 		System.out.println("Module 2 : Object Detection");
-		HierarchicalStructure_Detection es_detection = new HierarchicalStructure_Detection();
+		ES_Detection es_detection = new ES_Detection();
 		
 		PrintWriter out = new PrintWriter(new File("./output/"+currDocument.getName()+"_objects.txt"));
 		
@@ -134,7 +139,7 @@ public class LATOE_client {
 		/**
 		 * Reader
 		 */
-		Reader_Service reader_service = new Reader_Service();
+		Writer_Service reader_service = new Writer_Service();
 
 		// HTML and LARAt
 		reader_service.writeHTML("./output/", "UTF-8", currDocument);

@@ -23,13 +23,14 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import logicalobjects.Term;
+
 import org.jdom2.*;
 import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.*;
 import org.melodi.analyser.talismane_client.service.Sentence;
 import org.melodi.analyser.talismane_client.service.Structure;
 import org.melodi.analyser.talismane_client.service.Token;
-import org.melodi.objectslogic.Term;
 import org.melodi.tools.fuzzymatcher.client.FuzzyMatcher_Client;
 import org.melodi.tools.fuzzymatcher.datamodel.Message_Matcher;
 

@@ -5,16 +5,17 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
+import logicalobjects.Document_Lara;
+
 import org.latoe.layoutanalysis.html.HTML_Service;
 import org.latoe.layoutanalysis.pdf.PDF_Service;
 import org.latoe.layoutanalysis.wikipedia.Wikipedia_Service;
-import org.latoe.textobject.HierarchicalStructure_Detection;
-import org.melodi.objectslogic.Document_Lara;
+import org.latoe.textobject.ES_Detection;
 import org.melodi.reader.larat.controler.LaratControler;
 import org.melodi.reader.larat.internal.Unit;
 import org.melodi.reader.larat.model.LaratModel;
 import org.melodi.reader.larat.view.LaratView;
-import org.melodi.reader.service.Reader_Service;
+import org.melodi.reader.service.Writer_Service;
 
 import de.tudarmstadt.ukp.wikipedia.api.exception.WikiApiException;
 import de.tudarmstadt.ukp.wikipedia.api.exception.WikiInitializationException;
@@ -74,7 +75,7 @@ public class Main_Example {
 		/**
 		 * Extract Hierarchical structures
 		 */
-		HierarchicalStructure_Detection es_detection = new HierarchicalStructure_Detection();
+		ES_Detection es_detection = new ES_Detection();
 		ArrayList<Unit> units = es_detection.getES(currDocument);
 
 		
@@ -101,7 +102,7 @@ public class Main_Example {
 		/*
 		 *  Train new Model
 		 */
-//		pdf_service.trainNewModel("./data/training_label_layout/LING_GEOP/", "./models/crf.bin");
+		pdf_service.trainNewModel("./data/training_pdf/LING_GEOP/", "./models/crf.bin");
 		
 		/*
 		 *  Prediction
@@ -149,7 +150,7 @@ public class Main_Example {
 		 * Module 2 : Text Object Detection
 		 */
 		System.out.println("Module 2 : Object Detection");
-		HierarchicalStructure_Detection es_detection = new HierarchicalStructure_Detection();
+		ES_Detection es_detection = new ES_Detection();
 		es_detection.getES(currDocument);
 
 	}
@@ -163,7 +164,7 @@ public class Main_Example {
 		 * Reader
 		 * 
 		 */
-		Reader_Service reader_service = new Reader_Service();
+		Writer_Service reader_service = new Writer_Service();
 
 		// HTML and LARAt
 		reader_service.writeHTML("./output/", "UTF-8", currDocument);

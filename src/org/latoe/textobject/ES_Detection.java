@@ -2,15 +2,16 @@ package org.latoe.textobject;
 
 import java.util.ArrayList;
 
-import org.melodi.objectslogic.Chunk_Lara;
-import org.melodi.objectslogic.Document_Lara;
+import logicalobjects.Chunk_Lara;
+import logicalobjects.Document_Lara;
+
 import org.melodi.reader.larat.internal.Item;
 import org.melodi.reader.larat.internal.Items;
 import org.melodi.reader.larat.internal.Primer;
 import org.melodi.reader.larat.internal.Unit;
 
 
-public class HierarchicalStructure_Detection {
+public class ES_Detection {
 	
 	
 	static boolean printFlagESMatched = true;
@@ -18,25 +19,37 @@ public class HierarchicalStructure_Detection {
 	
 	
 	
-	
+	/**
+	 * Extraction des ES avec des patrons simples dans un document Lara.
+	 * A faire:
+	 * - Attention : recouvrement des conditions des patrons. A vérifier!
+	 * - Faire en sorte que les règles puissent être exprimées dans un fichier texte
+	 * - Etendre les patrons pour les primers avec plusieurs chunks:
+	 * h1: titre :h1
+	 * p: paragraphe :p
+	 * i: item1 :i
+	 * i: item2 :i
+	 * @param currDocument
+	 * @return
+	 */
 	public static ArrayList<Unit> getES(Document_Lara currDocument) {
 		/**
 		 * ES detection sur des documents Wikipedia avec des structures énumératives verticales
 		 */
 		currDocument.setList_of_units(new ArrayList<Unit>( ));
-		currDocument.processLayoutAnnotation(); // Nécessaire pour avoir LayoutAnnotation
+		currDocument.processLayoutAnnotation(); 
+		
+		int nb_extracted_se = 0;
 		
 		/**
-		 * Méthode essentielle de ma thèse
+		 * Parcours des chunks dans le document
 		 */
-//		System.out.println("#### Extraction de ES ####");
-		int nb_extracted_se = 0;
 		for (Chunk_Lara currChunk : currDocument.getChunk()) {
 			
 			/**
 			 * Pattern 1 : le chunk courant est = item,
 			 * son subordonné est un paragraph 
-			 * son suborodnné n'est pas un item (??)
+			 * son suborodnné n'est pas un item 
 			 * son id fait qu'il n'est pas à la fin du document
 			 * le chunk suivant n'est pas de type paragraphe
 			 */
@@ -75,17 +88,11 @@ public class HierarchicalStructure_Detection {
 					ArrayList<Chunk_Lara> coordinates_other = currDocument.getAllCoordinates(currChunk);
 					coordinates.addAll(coordinates_other);
 					
-//					ArrayList<Chunk_Lara> enumeration = currFlatDocument
-//							.getAllSubordonates(currChunk);
-					
 					
 					// ArrayList<Chunk_Lara> contient tous les items
 					Items item_list = new Items();
 					int index_item = 0;
 					for (Chunk_Lara item_niveau_O : coordinates) {
-						for (int i = 0; i < item_niveau_O.getLevel(); i++) {
-//							System.out.print("\t");
-						}
 //						System.out.println("Coordinates "+index_item+" : "+item_niveau_O.getText());
 						index_item++;
 						
@@ -139,7 +146,7 @@ public class HierarchicalStructure_Detection {
 				/**
 				 * Pattern 2 : le chunk courant est = item,
 				 * son dépendant est un TITRE (**) 
-				 * son dépendant n'est pas un item (??)
+				 * son dépendant n'est pas un item 
 				 * son id fait qu'il n'est pas à la fin du document
 				 * le chunk suivant n'est pas de type paragraphe
 				 */
@@ -161,10 +168,6 @@ public class HierarchicalStructure_Detection {
 					 */
 					Chunk_Lara primerChunk = currDocument.getChunk_id(
 							currChunk.getDepId());
-//					System.out.println("Primer:"+primerChunk.getText());
-//					for (int i = 0; i < currChunk.getLevel(); i++) {
-//						System.out.print("\t");
-//					}
 					primer.getListChunk().add(primerChunk);
 					primer.setText(primerChunk.getText());
 					primer.setIndice_begin(primerChunk.getLayoutAnnotation().getBegin());
@@ -181,17 +184,10 @@ public class HierarchicalStructure_Detection {
 					ArrayList<Chunk_Lara> coordinates_other = currDocument.getAllCoordinates(currChunk);
 					coordinates.addAll(coordinates_other);
 					
-//					ArrayList<Chunk_Lara> enumeration = currFlatDocument
-//							.getAllSubordonates(currChunk);
-					
 					
 					Items item_list = new Items();
 					int index_item = 0;
 					for (Chunk_Lara item_niveau_O : coordinates) {
-						for (int i = 0; i < item_niveau_O.getLevel(); i++) {
-//							System.out.print("\t");
-						}
-//						System.out.println("Coordinates "+index_item+" : "+item_niveau_O.getText());
 						index_item++;
 						
 						
@@ -207,10 +203,6 @@ public class HierarchicalStructure_Detection {
 						text_of_item += item_niveau_O.getText() + "\n";
 						for(Chunk_Lara subordinates : subordinates_of_items){
 							
-							for (int i = 0; i < subordinates.getLevel(); i++) {
-//								System.out.print("\t");
-							}
-//							System.out.println("Subordinates :" + subordinates.getText());
 							text_of_item += subordinates.getText() + "\n";
 							fin_item = subordinates.getLayoutAnnotation().getEnd();
 						}
@@ -241,7 +233,7 @@ public class HierarchicalStructure_Detection {
 				/**
 				 * Pattern 3 : le chunk courant est = item,
 				 * son dépendant est un TITRE (**) 
-				 * son dépendant n'est pas un item (??)
+				 * son dépendant n'est pas un item 
 				 * son id fait qu'il n'est pas à la fin du document
 				 * le chunk suivant n'est pas de type paragraphe
 				 */
@@ -262,10 +254,6 @@ public class HierarchicalStructure_Detection {
 					 */
 					Chunk_Lara primerChunk = currDocument.getChunk_id(
 							currChunk.getDepId());
-//					System.out.println("Primer:"+primerChunk.getText());
-//					for (int i = 0; i < currChunk.getLevel(); i++) {
-//						System.out.print("\t");
-//					}
 					primer.getListChunk().add(primerChunk);
 					primer.setText(primerChunk.getText());
 					primer.setIndice_begin(primerChunk.getLayoutAnnotation().getBegin());
@@ -282,19 +270,10 @@ public class HierarchicalStructure_Detection {
 					ArrayList<Chunk_Lara> coordinates_other = currDocument.getAllCoordinates(currChunk);
 					coordinates.addAll(coordinates_other);
 					
-//					ArrayList<Chunk_Lara> enumeration = currFlatDocument
-//							.getAllSubordonates(currChunk);
-					
-					
 					Items item_list = new Items();
 					int index_item = 0;
 					for (Chunk_Lara item_niveau_O : coordinates) {
-						for (int i = 0; i < item_niveau_O.getLevel(); i++) {
-//							System.out.print("\t");
-						}
-//						System.out.println("Coordinates "+index_item+" : "+item_niveau_O.getText());
 						index_item++;
-						
 						
 						Item currItem = new Item();
 						
@@ -308,10 +287,6 @@ public class HierarchicalStructure_Detection {
 						fin_item = item_niveau_O.getLayoutAnnotation().getEnd();
 						for(Chunk_Lara subordinates : subordinates_of_items){
 							
-							for (int i = 0; i < subordinates.getLevel(); i++) {
-//								System.out.print("\t");
-							}
-//							System.out.println("Subordinates :" + subordinates.getText());
 							text_of_item += subordinates.getText() + "\n";
 							fin_item = subordinates.getLayoutAnnotation().getEnd();
 						}
@@ -338,61 +313,6 @@ public class HierarchicalStructure_Detection {
 						System.out.println(newUnit.toString());
 					}
 				} 
-				
-				
-//				else if (currChunk.getType().equals("item")
-//						& currChunk.getDepType().contains("h")
-//						& !currChunk.getDepType().equals("item")
-//						& (currChunk.getId() < currDocument
-//								.getIndexOfLastChunck() - 1 && !currDocument
-//								.getChunk_id(currChunk.getId() + 1).getType()
-//								.equals("p"))) {
-//
-//					ArrayList<Chunk_Lara> ES = currDocument.getAllSubordinates(currChunk);
-//
-//					System.out.println("####### ES Pattern 2#########");
-//					System.out.println(currDocument.getChunk_id(
-//							currChunk.getDepId()).getText());
-//					for (int i = 0; i < currChunk.getLevel(); i++) {
-//						System.out.print("\t");
-//					}
-//					System.out.println(currChunk.getText());
-//					for (Chunk_Lara chunkES : ES) {
-//						for (int i = 0; i < chunkES.getLevel(); i++) {
-//							System.out.print("\t");
-//						}
-//						System.out.println(chunkES.getText());
-//					}
-//				}
-////				// Méthode générique
-////				// Si un Item a une relation de subordination, alors il est le
-////				// premier.
-//				else if (currChunk.getType().equals("item")
-//						& currChunk.getDepRelation().equals("sub")
-//						& !currChunk.getDepType().equals("item")
-//						& (currChunk.getId() < currDocument
-//								.getIndexOfLastChunck() - 1 && !currDocument
-//								.getChunk_id(currChunk.getId() + 1).getType()
-//								.equals("p"))) {
-//
-//					ArrayList<Chunk_Lara> ES = currDocument.getAllSubordinates(currChunk);
-//
-//					System.out.println("####### ES Pattern 3#########");
-//					System.out.println(currDocument.getChunk_id(
-//							currChunk.getDepId()).getText());
-//					for (int i = 0; i < currChunk.getLevel(); i++) {
-//						System.out.print("\t");
-//					}
-//					System.out.println(currChunk.getText());
-//					for (Chunk_Lara chunkES : ES) {
-//						for (int i = 0; i < chunkES.getLevel(); i++) {
-//							System.out.print("\t");
-//						}
-//						System.out.println(chunkES.getText());
-//					}
-//					System.out.println();
-//				}
-//
 			}
 		
 		System.out.println("SE extraites : " + nb_extracted_se);
