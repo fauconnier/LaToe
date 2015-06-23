@@ -2071,7 +2071,7 @@
                 font="NimbusRomNo9L-Regu" style="font-size:10pt">son</Word>
             <Word x1="405" y1="411" x2="427" y2="421"
                 font="NimbusRomNo9L-Regu" style="font-size:10pt">index</Word>
-            <Word x1="430" y1="411" x2="437" y2="421" font="CMSY10" style="font-size:10pt">≥</Word>
+            <Word x1="430" y1="411" x2="437" y2="421" font="CMSY10" style="font-size:10pt">?</Word>
             <Word x1="440" y1="411" x2="458" y2="421"
                 font="NimbusRomNo9L-Regu" style="font-size:10pt">celui</Word>
             <Word x1="461" y1="411" x2="469" y2="421"
@@ -6306,7 +6306,7 @@
                 font="NimbusRomNo9L-Regu" style="font-size:10pt">est</Word>
             <Word x1="459" y1="401" x2="479" y2="411"
                 font="NimbusRomNo9L-Regu" style="font-size:10pt">petite</Word>
-            <Word x1="487" y1="401" x2="495" y2="411" font="CMSY10" style="font-size:10pt">≤</Word>
+            <Word x1="487" y1="401" x2="495" y2="411" font="CMSY10" style="font-size:10pt">?</Word>
             <Word x1="498" y1="401" x2="500" y2="411"
                 font="NimbusRomNo9L-Regu" style="font-size:10pt">6</Word>
             <Word x1="506" y1="401" x2="532" y2="411"
@@ -6333,7 +6333,7 @@
                 font="NimbusRomNo9L-Regu" style="font-size:10pt">distance</Word>
             <Word x1="260" y1="413" x2="271" y2="423"
                 font="NimbusRomNo9L-Regu" style="font-size:10pt">est</Word>
-            <Word x1="273" y1="413" x2="281" y2="423" font="CMSY10" style="font-size:10pt">≤</Word>
+            <Word x1="273" y1="413" x2="281" y2="423" font="CMSY10" style="font-size:10pt">?</Word>
             <Word x1="283" y1="413" x2="289" y2="423"
                 font="NimbusRomNo9L-Regu" style="font-size:10pt">6,</Word>
             <Word x1="293" y1="413" x2="298" y2="423"

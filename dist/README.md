@@ -8,13 +8,15 @@
 
 ## Install
 
+### Linux
+
 * Clone LaToe Project:
 ```bash
  git clone https://github.com/jfaucon/latoe
  cd latoe
 ```
 
-* Build LaToe with Ant (or use the .jar in ./dist/ directory for Java 1.7):
+* Build LaToe with Ant:
 
 ```bash
  ant dist
@@ -26,6 +28,46 @@
  java -jar LaToe_0.0.1.jar format=wiki-text file=./samples/sample.mediawiki 
 ```
 
+### Windows
+
+* Download and install [Git for Windows](https://msysgit.github.io/)
+
+* Download [Ant for Windows](http://ant.apache.org/bindownload.cgi) (.zip)
+
+* Install Ant:
+    * Unzip in C:\ant\
+    * Open 'cmd' (search>cmd)
+    * Update PATH:
+```bash
+set PATH=%PATH%;C:\ant\bin;
+```  
+
+* Test Ant:
+    
+```bash
+ant -version
+Apache Ant(TM) version 1.9.4 compiled on April 29 2014
+
+``` 
+
+* Clone projet:
+```bash
+md LaToe
+cd LaToe
+git clone https://github.com/jfaucon/latoe
+cd latoe
+```  
+
+* Build LaToe with Ant:
+
+```bash
+ ant dist
+```
+
+* Run a test:
+```bash
+ cd dist
+ java -jar LaToe_0.0.1.jar format=wiki-text file=./samples/sample.mediawiki 
 
 
 ## Usage

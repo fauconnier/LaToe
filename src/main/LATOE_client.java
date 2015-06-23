@@ -66,7 +66,7 @@ public class LATOE_client {
 		return currDocument;
 	}
 
-	public Document_Lara runPDF(String path, String inputModel, String pathRules, String onlyRules) throws Exception {
+	public Document_Lara runPDF(String path, String inputModel, String pathRules, Boolean onlyRules) throws Exception {
 		
 		System.out.println("Module 1 : Document Processing PDF");
 		Document_Lara currDocument = new Document_Lara();

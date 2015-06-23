@@ -77,7 +77,8 @@ public class Main_Example {
 		 */
 		ES_Detection es_detection = new ES_Detection();
 		ArrayList<Unit> units = es_detection.getES(currDocument);
-
+		
+		
 		
 	}
 
@@ -108,7 +109,7 @@ public class Main_Example {
 		 *  Prediction
 		 */
 		Document_Lara currDocument = pdf_service.getDocument(path, "./models/crf.bin", "",
-				"");
+				false);
 
 		return currDocument;
 	}

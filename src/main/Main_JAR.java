@@ -17,6 +17,7 @@ public class Main_JAR {
 	 * @throws InterruptedException
 	 * @author Jean-Philippe Fauconnier
 	 */
+	
 
 	public static void main(String[] args) {
 		
@@ -38,7 +39,7 @@ public class Main_JAR {
 		String outputModel="./models/newmodel.bin";
 		String inputModel="./models/crf.bin";
 		String pathRules = "./configuration/PDFRules/rules.drl";
-		String onlyRules="FALSE";
+		Boolean onlyRules = false;
 
 		/* dirty quick solution to parse args */
 		for (String currArgs : args) {
@@ -59,7 +60,10 @@ public class Main_JAR {
 			}else if(currArgs.matches("pathRules=(.)*")){
 				pathRules = currArgs.substring(10, currArgs.length());
 			} else if(currArgs.matches("onlyRules=(.)*")){
-				onlyRules = currArgs.substring(10, currArgs.length());
+				String onlyRulesString = currArgs.substring(10, currArgs.length());
+				if(onlyRulesString.contains("TRUE")){
+					onlyRules = true;
+				}
 			}
 			
 			else {
@@ -107,7 +111,7 @@ public class Main_JAR {
 	}
 	
 
-	static void runAnalyse(String format, String path, String bdd_host, String bdd_name, String bdd_user, String bdd_pwd, String inputModel, String pathRules, String onlyRules) throws Exception {
+	static void runAnalyse(String format, String path, String bdd_host, String bdd_name, String bdd_user, String bdd_pwd, String inputModel, String pathRules, Boolean onlyRules) throws Exception {
 
 		LATOE_client latoe_client = new LATOE_client();
 		Document_Lara currDocument = new Document_Lara();

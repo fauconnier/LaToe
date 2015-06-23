@@ -46,11 +46,11 @@ public class PDF_Service {
 	 * @throws Exception
 	 */
 	public Document_Lara getDocument(String path, String path_model, String path_rules,
-			String onlyRules) throws Exception {
+			Boolean onlyRules) throws Exception {
 
 		Document_Lara currDocument = new Document_Lara();
 
-		if (onlyRules.equals("TRUE")) {
+		if (onlyRules) {
 			/*
 			 * 1. LaPDF Layout
 			 */

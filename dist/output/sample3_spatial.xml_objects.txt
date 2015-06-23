@@ -1,56 +1,56 @@
-SE :	#Primer# = [Pour rÃ©sumer, il y a six options principales pour le token que et son Ã©quivalent abrÃ©gÃ© quâ€™ , annotÃ©es selon les normes dâ€™annotation du corpus FTB avec 4 Ã©tiquettes diffÃ©rentes, comme illustrÃ© par les exemples suivants 	]
-	Item 1 = [5. Adverbe exclamatif ADV Quâ€™il est bon, ce vin 
+SE :	#Primer# = [Pour résumer, il y a six options principales pour le token que et son équivalent abrégé qu’ , annotées selon les normes d’annotation du corpus FTB avec 4 étiquettes différentes, comme illustré par les exemples suivants 	]
+	Item 1 = [5. Adverbe exclamatif ADV Qu’il est bon, ce vin 
 	]
-	Item 2 = [6. Construction comparatif CS Il est plus bourrÃ© que moi. 
+	Item 2 = [6. Construction comparatif CS Il est plus bourré que moi. 
 	]
-	Item 3 = [Le que dâ€™une clivÃ©e est Ã©tiquetÃ© PROREL pour un focus nominal argument du verbe. Quand le focus est un syntagme prÃ©positionnel ou nominal circonstant, lâ€™Ã©tiquetage du FTB est assez incohÃ©rent entre PROREL et CS. 
+	Item 3 = [Le que d’une clivée est étiqueté PROREL pour un focus nominal argument du verbe. Quand le focus est un syntagme prépositionnel ou nominal circonstant, l’étiquetage du FTB est assez incohérent entre PROREL et CS. 
 	]
 	Item 4 = [ADV CS PROREL PROWH Total Erreurs 
 	]
 	Item 5 = [ADV 90 44 4 1 139 49 CS 37 1097 61 0 1195 98 PROREL 0 69 244 0 313 69 PROWH 0 4 2 23 29 6 
 	]
-	Item 6 = [TABLE 1 â€“ Matrice de confusion de base pour que 
+	Item 6 = [TABLE 1 – Matrice de confusion de base pour que 
 	]
-SE :	#Primer# = [En termes de descripteurs ciblÃ©s, nous traiterons dâ€™abord le cas de que en tant quâ€™adverbe nÃ©gatif. Notre mÃ©thodologie itÃ©rative consiste Ã  	]
+SE :	#Primer# = [En termes de descripteurs ciblés, nous traiterons d’abord le cas de que en tant qu’adverbe négatif. Notre méthodologie itérative consiste à 	]
 	Item 1 = [1. Analyser les erreurs dans le corpus dev et concevoir des descripteurs utiles. 
 	]
-	Item 2 = [2. Ã‰crire ces descripteurs dans la syntaxe de Talismane. 
+	Item 2 = [2. Écrire ces descripteurs dans la syntaxe de Talismane. 
 	]
-	Item 3 = [3. Projeter ces descripteurs sur le corpus train, et examiner les co-occurrences avec chaque Ã©tiquette, surtout celles avec une Ã©tiquette inattendue. Nous cherchons Ã  inclure le maximum de rÃ©sultats tout en maximisant le dÃ©sÃ©quilibre entre les Ã©tiquettes. Revenir Ã  lâ€™Ã©tape 2 si nÃ©cessaire. 
+	Item 3 = [3. Projeter ces descripteurs sur le corpus train, et examiner les co-occurrences avec chaque étiquette, surtout celles avec une étiquette inattendue. Nous cherchons à inclure le maximum de résultats tout en maximisant le déséquilibre entre les étiquettes. Revenir à l’étape 2 si nécessaire. 
 	]
-	Item 4 = [4. EntraÃ®ner le modÃ¨le avec les descripteurs ciblÃ©s, et Ã©valuer. Revenir Ã  lâ€™Ã©tape 1 si nÃ©cessaire. 
+	Item 4 = [4. Entraîner le modèle avec les descripteurs ciblés, et évaluer. Revenir à l’étape 1 si nécessaire. 
 	]
-SE :	#Primer# = [7 RÃ©sultats pour les descripteurs ciblÃ©s 	]
+SE :	#Primer# = [7 Résultats pour les descripteurs ciblés 	]
 	Item 1 = [ADV CS PROREL PROWH Total Erreurs 
 	]
 	Item 2 = [ADV 133 +43 6 -38 0 -4 0 -1 139 6 -43 CS 10 -27 1135 +38 50 -11 0 -1 1195 60 -38 PROREL 0 52 -17 261 +17 0 313 52 -17 PROWH 0 0 -4 4 +2 25 +2 29 4 -2 
 	]
-	Item 3 = [TABLE 2 â€“ Matrice de confusion pour que avec les descripteurs ciblÃ©s 
+	Item 3 = [TABLE 2 – Matrice de confusion pour que avec les descripteurs ciblés 
 	]
-SE :	#Primer# = [RÃ¨gle 8.10 Ne pas Ã©tiqueter PROREL si que suit les mots reprises, tous, toutes, toute, tout, soi 	]
-	Item 1 = [RÃ¨gle 8.11 Ne pas Ã©tiqueter ADV sauf sâ€™il y a un ne plus tÃ´t dans la phrase, ou si que est le premier mot de la phrase. 
+SE :	#Primer# = [Règle 8.10 Ne pas étiqueter PROREL si que suit les mots reprises, tous, toutes, toute, tout, soi 	]
+	Item 1 = [Règle 8.11 Ne pas étiqueter ADV sauf s’il y a un ne plus tôt dans la phrase, ou si que est le premier mot de la phrase. 
 	]
 	Item 2 = [ADV CS PROREL PROWH Total Erreurs 
 	]
 	Item 3 = [ADV 134 +1 5 -1 0 0 139 5 -1 CS 10 1149 +14 36 -14 0 1195 46 -14 PROREL 0 48 -4 265 +4 0 313 48 -4 PROWH 0 0 2 -2 27 +2 29 2 -2 
 	]
-	Item 4 = [TABLE 3 â€“ Matrice de confusion pour que avec les rÃ¨gles 
+	Item 4 = [TABLE 3 – Matrice de confusion pour que avec les règles 
 	]
-SE :	#Primer# = [RÃ©fÃ©rences 	]
-	Item 1 = [ABEILLÃ‰ A., CLÃ‰MENT L. TOUSSENEL F. 2003 . Building a treebank for French. In A. ABEILLÃ‰, Ed., Treebanks. Kluwer. 
+SE :	#Primer# = [Références 	]
+	Item 1 = [ABEILLÉ A., CLÉMENT L. TOUSSENEL F. 2003 . Building a treebank for French. In A. ABEILLÉ, Ed., Treebanks. Kluwer. 
 	]
 	Item 2 = [B. BIGI, Ed. 2014 . Actes de TALN 2014 Traitement automatique des langues naturelles , Marseille. ATALA, LPL. 
 	]
-	Item 3 = [CANDITO M., SEDDAH D. et al. 2012 . Le corpus sequoia annotation syntaxique et exploitation pour lâ€™adaptation 
+	Item 3 = [CANDITO M., SEDDAH D. et al. 2012 . Le corpus sequoia annotation syntaxique et exploitation pour l’adaptation 
 	]
-	Item 4 = [dâ€™analyseur par pont lexical. In TALN 2012-19e confÃ©rence sur le Traitement Automatique des Langues Naturelles. 
+	Item 4 = [d’analyseur par pont lexical. In TALN 2012-19e conférence sur le Traitement Automatique des Langues Naturelles. 
 	]
-SE :	#Primer# = [DENIS P. SAGOT B. 2012 . Coupling an annotated corpus and a lexicon for state-of-the-art pos tagging. Language Resources and Evaluation, 46 4 , 721â€“736. JACQUES M.-P. 2005 . Que la valse des Ã©tiquettes. In Actes de la 12Ã¨me confÃ©rence sur le Traitement Automatique des Langues Naturelles TALNâ€™2005 , p. 133â€“142, Dourdan, France. 	]
-	Item 1 = [KÃœBLER S., MCDONALD R. NIVRE J. 2009 . Dependency parsing. Morgan Claypool Publishers. SAGOT B. 2010 . The lefff, a freely available and large-coverage morphological and syntactic lexicon for french. In 
+SE :	#Primer# = [DENIS P. SAGOT B. 2012 . Coupling an annotated corpus and a lexicon for state-of-the-art pos tagging. Language Resources and Evaluation, 46 4 , 721–736. JACQUES M.-P. 2005 . Que la valse des étiquettes. In Actes de la 12ème conférence sur le Traitement Automatique des Langues Naturelles TALN’2005 , p. 133–142, Dourdan, France. 	]
+	Item 1 = [KÜBLER S., MCDONALD R. NIVRE J. 2009 . Dependency parsing. Morgan Claypool Publishers. SAGOT B. 2010 . The lefff, a freely available and large-coverage morphological and syntactic lexicon for french. In 
 	]
 	Item 2 = [7th international conference on Language Resources and Evaluation LREC 2010 . 
 	]
-	Item 3 = [SEDDAH D., TSARFATY R., KÃœBLER S., CANDITO M., CHOI J., FARKAS R., FOSTER J., GOENAGA I., GOJENOLA K., GOLDBERG Y., GREEN S., HABASH N., KUHLMANN M., MAIER W., NIVRE J., PRZEPIORKOWSKI A., ROTH R., SEEKER W., VERSLEY Y., VINCZE V., WOLINSKI Â´ M., WRÃ“BLEWSKA A. VILLEMONTE DE LA CLÃ‰RGERIE 
+	Item 3 = [SEDDAH D., TSARFATY R., KÜBLER S., CANDITO M., CHOI J., FARKAS R., FOSTER J., GOENAGA I., GOJENOLA K., GOLDBERG Y., GREEN S., HABASH N., KUHLMANN M., MAIER W., NIVRE J., PRZEPIORKOWSKI A., ROTH R., SEEKER W., VERSLEY Y., VINCZE V., WOLINSKI ´ M., WRÓBLEWSKA A. VILLEMONTE DE LA CLÉRGERIE 
 	]
 	Item 4 = [E. 2013 . Overview of the spmrl 2013 shared task A cross-framework evaluation of parsing morphologically rich 
 	]
